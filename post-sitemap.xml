@@ -41,7 +41,7 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/materials/highway/</loc>
+        <loc>https://zypnb.top/learn/mechanics_fluid/kinematics/</loc>
         <lastmod>2022-07-31T10:25:30.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -49,7 +49,7 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/kinematics/</loc>
+        <loc>https://zypnb.top/learn/materials/highway/</loc>
         <lastmod>2022-07-31T10:25:30.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -73,14 +73,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/tension/</loc>
-        <lastmod>2022-07-31T10:25:29.893Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/servuy/angle/</loc>
         <lastmod>2022-07-31T10:25:29.893Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -89,7 +81,23 @@
     </url>
 
     <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/tension/</loc>
+        <lastmod>2022-07-31T10:25:29.893Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://zypnb.top/learn/engineering_geology/struct/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_fluid/dynamics/</loc>
         <lastmod>2022-07-31T10:17:41.303Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -106,14 +114,6 @@
 
     <url>
         <loc>https://zypnb.top/learn/materials/uhpc/</loc>
-        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/dynamics/</loc>
         <lastmod>2022-07-31T10:17:41.303Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

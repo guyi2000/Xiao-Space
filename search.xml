@@ -78,11 +78,11 @@
             
             <tag> 三角 </tag>
             
+            <tag> 基本不等式 </tag>
+            
             <tag> 柯西不等式 </tag>
             
             <tag> 积化和差 </tag>
-            
-            <tag> 基本不等式 </tag>
             
         </tags>
       
@@ -1397,33 +1397,6 @@
     
     
     <entry>
-      <title>绪论</title>
-      <link href="/learn/engineering_geology/intro/"/>
-      <url>/learn/engineering_geology/intro/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="课程目的"><a href="#课程目的" class="headerlink" title="课程目的"></a>课程目的</h3><p>为什么要学《工程地质》</p><ul><li>专业基础课</li><li>工程：工程的地质条件</li><li>兴趣：地球、地质作用、矿物、岩石、……</li></ul><h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><ul><li>两部分知识：</li></ul><h4 id="基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；"><a href="#基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；" class="headerlink" title="基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；"></a>基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；</h4><ul><li>岩矿实验课</li></ul><span id="more"></span><p><img src="https://qn-st0.yuketang.cn/FhUC98QWbOgsym5epEGAKwJnJnio" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhUC98QWbOgsym5epEGAKwJnJnio" srcset="/images/placeholder.svg" alt="img"></p><ul><li><p>内外动力地质作用的性质和规律</p><ul><li><p>地壳活动：</p><ul><li><p>岩浆活动-&gt;岩浆岩体</p></li><li><p>地壳内部的高温高压及化学活动性流体-&gt;改造地壳岩石</p></li><li><p>地壳运动-&gt;岩体变形、破坏-&gt;地质构造（褶皱、断裂）</p></li></ul></li><li><p>地表：</p><ul><li>风化、剥蚀、搬运和沉积-&gt;各种沉积物，地形地貌</li></ul></li></ul></li><li><p>地质作用演化的历史</p></li><li><p>地址体中水的特征</p></li></ul><h4 id="工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。"><a href="#工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。" class="headerlink" title="工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。"></a>工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。</h4><ul><li><p>岩石和第四系沉积物的工程地址性质</p><ul><li><p>实际上：岩石与土的差别很大，例如：强度、水理性质、抗风化能力</p></li><li><p>矿物及岩石的强度，差异很大，例如：长石，石英，比玻璃的硬度大；滑石、高岭石，比之家的硬度还要小</p></li><li><p>石英岩、花岗岩、玄武岩-&gt;300MPa</p></li><li><p>泥质岩、滑石片岩；&lt;30MPa</p></li><li><p>土的软硬差别也很大：</p><ul><li>不同的成分</li><li>不同的成因</li><li>不同的年代</li><li>性质差异大</li><li>例如：河流上游与河流下游</li></ul></li><li><p>岩土的水理性质</p><ul><li>透水性：水库很重要</li><li><strong>软化性</strong>：含粘土矿石的岩石，饱水或遇水时发生软化，强度降低。对大部分建筑很重要</li><li>可溶性：可溶矿石。形成洞穴，溶洞、溶蚀地貌</li></ul></li><li><p>风化情况</p><ul><li>气候水文条件，地质构造和岩土性质</li></ul></li></ul></li><li><p>地质灾害和环境地质问题</p><ul><li>地质灾害：火山、地震（自然）、滑坡、崩塌、泥石流（人类）</li><li>地震和火山（一课+半课）<ul><li>地震可以预报吗？</li><li>火山的成因</li></ul></li><li>滑坡、崩塌、泥石流<ul><li>地壳运动</li><li>地表附近</li><li>人类活动-&gt;高陡边坡、制备破坏-&gt;剧变过程</li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/Fihg_D2Zq0vrM1Y3w9tkPrTvbpcU" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/Fihg_D2Zq0vrM1Y3w9tkPrTvbpcU" srcset="/images/placeholder.svg" alt="img"></p><p><img src="https://qn-st0.yuketang.cn/Ft-fICK7YVE5ZUW3OPSEqQeTAz2-" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/Ft-fICK7YVE5ZUW3OPSEqQeTAz2-" srcset="/images/placeholder.svg" alt="img"></p><ul><li>过去抽取地下水也会引起环境地质问题<ul><li>地面沉降</li><li>地裂缝（城南地裂缝）</li><li>岩溶地面塌陷（由于抽取浅水，导致群发性）<ul><li>人类引起-群发性</li><li>天然-一般不是群发性</li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/FhnOf5h65BdpvgAOyI4Gdzn1Ieto" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhnOf5h65BdpvgAOyI4Gdzn1Ieto" srcset="/images/placeholder.svg" alt="img"></p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p><img src="https://qn-st0.yuketang.cn/FhEq5JdR3VipdDssb5bIlHZdlxv3" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhEq5JdR3VipdDssb5bIlHZdlxv3" srcset="/images/placeholder.svg" alt="img"></p><ul><li>有地质实习——地质之角</li></ul><div class="story post-story"><h2 id="地球和地壳"><a href="#地球和地壳" class="headerlink" title="地球和地壳"></a>地球和地壳</h2><ul><li>现代天文学认为，宇宙开始于137亿年前</li></ul><h3 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h3><ul><li>既普通、又独特（大小、位置、物质组成）</li><li>物理化学条件-&gt;生命-&gt;人类-&gt;-&gt;-&gt;生产生活、工程建设</li><li>好奇、实际需要</li></ul><h3 id="固体地球的主要特性"><a href="#固体地球的主要特性" class="headerlink" title="固体地球的主要特性"></a>固体地球的主要特性</h3><ul><li><p>地球是圆的——有个认识过程……感性-&gt;理性</p></li><li><p>中国古时传说：大地由大海龟驮着</p></li><li><p>古俄罗斯人：大地托在三个鲸鱼身上（没有球的概念，想不到大地是圆的）</p></li><li><p>毕达哥拉斯：主张“球形大地”（也有人想到了）</p><ul><li>并不是完全完美主义，而是由观察所得……</li><li>远处的船能先看到桅杆</li></ul></li><li><p>圣经：大地悬在空中</p></li><li><p>地球在宇宙中的位置——也有个认识过程</p><ul><li>亚里士多德——地球是宇宙的中心</li><li>伽利略——日心说</li></ul></li><li><p>如何知道地球的大小？</p><ul><li>埃拉托色尼</li></ul></li><li><p>计算——亚历山大与赛伊尼误差仅0.17%</p></li><li><p>地球密度的计算</p><ul><li>平均5.5$g&#x2F;cm^3$，但地表较小仅有2.7-2.9$g&#x2F;cm^3$，所以地球内部一定有高密度物质</li><li>地球球形的形状十分圆-&gt;推测经历过熔融或软化阶段（小行星、星际碎块都是形状不规则的）</li><li>旋转椭球形是自转结果</li></ul></li><li><p>地球的内部结构</p><ul><li><p>直接了解地表下的物质组成和结构；通过挖掘和钻探。最深矿洞约4km深。</p></li><li><p>通过地震波了解了解，类似B超&#x2F;CT之类，<strong>了解状态以及界面</strong></p></li><li><p>地内成分：有一定根据猜测</p></li><li><p>陨石：主要来自于小行星带，认为此处应有一个完成分异的行星——地球成分类似</p></li><li><p>地核：不全是铁，认为5%-20%是镍，成分相当于铁陨石成分，外核液态，内核固态。深度2900km-6371km；密度9.7-13$g&#x2F;cm^3$</p></li><li><p>地幔：深度大约</p></li><li><p>软流圈：地震波波速在这里明显减慢又称：<code>低速带</code>——局部熔融——软塑状态</p><ul><li><p>距离地幔200km左右</p></li><li><p>连续的</p></li><li><p>决定了地壳和岩石圈中独特的地质作用</p></li><li><p>不稳定，经常在变形，常有热物质上升</p></li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/FgK9kzXC8ACBW86oRP2Z6NgsgtY4" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FgK9kzXC8ACBW86oRP2Z6NgsgtY4" srcset="/images/placeholder.svg" alt="img"></p><ul><li><p>接上图</p><ul><li><p>地壳：</p><ul><li>最外层，人类直接接触到；平均厚度很小，但差距特别大。</li><li>大洋区薄5km-10km，大陆区厚20-70km，青藏高原可达70km，抱的5km</li><li>平均海洋区7-8km，陆地33km</li><li>由上下两层组成</li><li>硅铝层（花岗质层）和硅镁层（玄武质层）</li></ul></li></ul></li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184155326.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184155326.png" srcset="/images/placeholder.svg" alt="image"/></div></div><blockquote><p>地壳均衡原理：</p><p>  较轻的地壳覆在密度较大的地幔之上，处于类似漂浮的状态。</p><p>  地壳厚的地方，地势高，地壳底面位置深，如大陆高原区。</p><p>  地壳薄的地方，地势低，地壳底面位置浅，如海洋区。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184218762.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184218762.png" srcset="/images/placeholder.svg" alt="image"/></div></div><p>  这样，在地幔的某一深度上，上覆岩石对地幔的压力处处相等，处于一种均衡状态 – <strong>地壳均衡原理</strong>。 </p><ul><li>对地壳了解深入<ul><li>钻探等手段</li><li>O, Si, Al, Fe, Ca, Na, K, Mg</li><li>大部分以硅酸盐形式存在——长石、角闪石、辉石、橄榄石、云母、高岭石</li><li>碳酸盐——方解石、白云石，几乎全部分布在地表</li><li>氧化物——石英</li><li>岩石是矿物的结合体——会结合成复杂的岩石</li><li>宝石</li></ul></li><li>简单介绍三大岩类<ul><li>结晶盐<ul><li>岩浆岩</li><li>变质岩</li></ul></li><li>沉积岩</li></ul></li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218222243025.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218222243025.png" srcset="/images/placeholder.svg" alt="image"/></div></div><h3 id="地球的外圈"><a href="#地球的外圈" class="headerlink" title="地球的外圈"></a>地球的外圈</h3><ul><li><p>大气圈</p><ul><li><p>低层大气成分——氮和氧</p></li><li><p>臭氧层</p></li><li><p>为地表及生命提供保护</p></li><li><p>地表生命的充分何必要的环境</p></li><li><p>提供营力（风）</p></li><li><p>地球系统的物质循环媒介</p></li></ul></li><li><p>水圈</p><ul><li>大陆——海洋水循环</li><li>外动力地质作用的最重要媒介，（尤其是河流）</li><li>生命依赖于水，生态因水改变</li><li>（人类）水资源（不可替代的资源）</li></ul></li><li><p>生物圈</p><ul><li>主要集中在陆地，海洋的表层</li><li>有生态系统组成</li><li>为人类提供必不可少的生物资源</li><li>外动力的地质作用</li></ul></li><li><p>与地质作用密切相关的：</p><ul><li>内圈和外圈</li><li>活动的岩石圈：</li><li>活跃的外层水、大气和生物：有很强的破坏力和改动作用</li></ul></li></ul><h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><blockquote><p>埃拉托色尼怎么知道亚历山大和赛伊尼在同一子午线上？</p><p>埃拉托色尼如何确定测量的同时性？</p></blockquote></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 工程地质 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 绪论 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>内动力地质作用</title>
       <link href="/learn/engineering_geology/internal/"/>
       <url>/learn/engineering_geology/internal/</url>
@@ -1443,6 +1416,33 @@
         <tags>
             
             <tag> 地质作用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>绪论</title>
+      <link href="/learn/engineering_geology/intro/"/>
+      <url>/learn/engineering_geology/intro/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="课程目的"><a href="#课程目的" class="headerlink" title="课程目的"></a>课程目的</h3><p>为什么要学《工程地质》</p><ul><li>专业基础课</li><li>工程：工程的地质条件</li><li>兴趣：地球、地质作用、矿物、岩石、……</li></ul><h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><ul><li>两部分知识：</li></ul><h4 id="基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；"><a href="#基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；" class="headerlink" title="基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；"></a>基础地质：有关地球、地壳、矿物岩石、地质年代、内外动力地质作用的性质和规律；</h4><ul><li>岩矿实验课</li></ul><span id="more"></span><p><img src="https://qn-st0.yuketang.cn/FhUC98QWbOgsym5epEGAKwJnJnio" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhUC98QWbOgsym5epEGAKwJnJnio" srcset="/images/placeholder.svg" alt="img"></p><ul><li><p>内外动力地质作用的性质和规律</p><ul><li><p>地壳活动：</p><ul><li><p>岩浆活动-&gt;岩浆岩体</p></li><li><p>地壳内部的高温高压及化学活动性流体-&gt;改造地壳岩石</p></li><li><p>地壳运动-&gt;岩体变形、破坏-&gt;地质构造（褶皱、断裂）</p></li></ul></li><li><p>地表：</p><ul><li>风化、剥蚀、搬运和沉积-&gt;各种沉积物，地形地貌</li></ul></li></ul></li><li><p>地质作用演化的历史</p></li><li><p>地址体中水的特征</p></li></ul><h4 id="工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。"><a href="#工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。" class="headerlink" title="工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。"></a>工程地质、灾害及环境地址问题：岩土的工程性质、地质灾害和环境地址问题。</h4><ul><li><p>岩石和第四系沉积物的工程地址性质</p><ul><li><p>实际上：岩石与土的差别很大，例如：强度、水理性质、抗风化能力</p></li><li><p>矿物及岩石的强度，差异很大，例如：长石，石英，比玻璃的硬度大；滑石、高岭石，比之家的硬度还要小</p></li><li><p>石英岩、花岗岩、玄武岩-&gt;300MPa</p></li><li><p>泥质岩、滑石片岩；&lt;30MPa</p></li><li><p>土的软硬差别也很大：</p><ul><li>不同的成分</li><li>不同的成因</li><li>不同的年代</li><li>性质差异大</li><li>例如：河流上游与河流下游</li></ul></li><li><p>岩土的水理性质</p><ul><li>透水性：水库很重要</li><li><strong>软化性</strong>：含粘土矿石的岩石，饱水或遇水时发生软化，强度降低。对大部分建筑很重要</li><li>可溶性：可溶矿石。形成洞穴，溶洞、溶蚀地貌</li></ul></li><li><p>风化情况</p><ul><li>气候水文条件，地质构造和岩土性质</li></ul></li></ul></li><li><p>地质灾害和环境地质问题</p><ul><li>地质灾害：火山、地震（自然）、滑坡、崩塌、泥石流（人类）</li><li>地震和火山（一课+半课）<ul><li>地震可以预报吗？</li><li>火山的成因</li></ul></li><li>滑坡、崩塌、泥石流<ul><li>地壳运动</li><li>地表附近</li><li>人类活动-&gt;高陡边坡、制备破坏-&gt;剧变过程</li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/Fihg_D2Zq0vrM1Y3w9tkPrTvbpcU" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/Fihg_D2Zq0vrM1Y3w9tkPrTvbpcU" srcset="/images/placeholder.svg" alt="img"></p><p><img src="https://qn-st0.yuketang.cn/Ft-fICK7YVE5ZUW3OPSEqQeTAz2-" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/Ft-fICK7YVE5ZUW3OPSEqQeTAz2-" srcset="/images/placeholder.svg" alt="img"></p><ul><li>过去抽取地下水也会引起环境地质问题<ul><li>地面沉降</li><li>地裂缝（城南地裂缝）</li><li>岩溶地面塌陷（由于抽取浅水，导致群发性）<ul><li>人类引起-群发性</li><li>天然-一般不是群发性</li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/FhnOf5h65BdpvgAOyI4Gdzn1Ieto" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhnOf5h65BdpvgAOyI4Gdzn1Ieto" srcset="/images/placeholder.svg" alt="img"></p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p><img src="https://qn-st0.yuketang.cn/FhEq5JdR3VipdDssb5bIlHZdlxv3" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FhEq5JdR3VipdDssb5bIlHZdlxv3" srcset="/images/placeholder.svg" alt="img"></p><ul><li>有地质实习——地质之角</li></ul><div class="story post-story"><h2 id="地球和地壳"><a href="#地球和地壳" class="headerlink" title="地球和地壳"></a>地球和地壳</h2><ul><li>现代天文学认为，宇宙开始于137亿年前</li></ul><h3 id="地球"><a href="#地球" class="headerlink" title="地球"></a>地球</h3><ul><li>既普通、又独特（大小、位置、物质组成）</li><li>物理化学条件-&gt;生命-&gt;人类-&gt;-&gt;-&gt;生产生活、工程建设</li><li>好奇、实际需要</li></ul><h3 id="固体地球的主要特性"><a href="#固体地球的主要特性" class="headerlink" title="固体地球的主要特性"></a>固体地球的主要特性</h3><ul><li><p>地球是圆的——有个认识过程……感性-&gt;理性</p></li><li><p>中国古时传说：大地由大海龟驮着</p></li><li><p>古俄罗斯人：大地托在三个鲸鱼身上（没有球的概念，想不到大地是圆的）</p></li><li><p>毕达哥拉斯：主张“球形大地”（也有人想到了）</p><ul><li>并不是完全完美主义，而是由观察所得……</li><li>远处的船能先看到桅杆</li></ul></li><li><p>圣经：大地悬在空中</p></li><li><p>地球在宇宙中的位置——也有个认识过程</p><ul><li>亚里士多德——地球是宇宙的中心</li><li>伽利略——日心说</li></ul></li><li><p>如何知道地球的大小？</p><ul><li>埃拉托色尼</li></ul></li><li><p>计算——亚历山大与赛伊尼误差仅0.17%</p></li><li><p>地球密度的计算</p><ul><li>平均5.5$g&#x2F;cm^3$，但地表较小仅有2.7-2.9$g&#x2F;cm^3$，所以地球内部一定有高密度物质</li><li>地球球形的形状十分圆-&gt;推测经历过熔融或软化阶段（小行星、星际碎块都是形状不规则的）</li><li>旋转椭球形是自转结果</li></ul></li><li><p>地球的内部结构</p><ul><li><p>直接了解地表下的物质组成和结构；通过挖掘和钻探。最深矿洞约4km深。</p></li><li><p>通过地震波了解了解，类似B超&#x2F;CT之类，<strong>了解状态以及界面</strong></p></li><li><p>地内成分：有一定根据猜测</p></li><li><p>陨石：主要来自于小行星带，认为此处应有一个完成分异的行星——地球成分类似</p></li><li><p>地核：不全是铁，认为5%-20%是镍，成分相当于铁陨石成分，外核液态，内核固态。深度2900km-6371km；密度9.7-13$g&#x2F;cm^3$</p></li><li><p>地幔：深度大约</p></li><li><p>软流圈：地震波波速在这里明显减慢又称：<code>低速带</code>——局部熔融——软塑状态</p><ul><li><p>距离地幔200km左右</p></li><li><p>连续的</p></li><li><p>决定了地壳和岩石圈中独特的地质作用</p></li><li><p>不稳定，经常在变形，常有热物质上升</p></li></ul></li></ul></li></ul><p><img src="https://qn-st0.yuketang.cn/FgK9kzXC8ACBW86oRP2Z6NgsgtY4" class="lazyload placeholder" data-srcset="https://qn-st0.yuketang.cn/FgK9kzXC8ACBW86oRP2Z6NgsgtY4" srcset="/images/placeholder.svg" alt="img"></p><ul><li><p>接上图</p><ul><li><p>地壳：</p><ul><li>最外层，人类直接接触到；平均厚度很小，但差距特别大。</li><li>大洋区薄5km-10km，大陆区厚20-70km，青藏高原可达70km，抱的5km</li><li>平均海洋区7-8km，陆地33km</li><li>由上下两层组成</li><li>硅铝层（花岗质层）和硅镁层（玄武质层）</li></ul></li></ul></li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184155326.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184155326.png" srcset="/images/placeholder.svg" alt="image"/></div></div><blockquote><p>地壳均衡原理：</p><p>  较轻的地壳覆在密度较大的地幔之上，处于类似漂浮的状态。</p><p>  地壳厚的地方，地势高，地壳底面位置深，如大陆高原区。</p><p>  地壳薄的地方，地势低，地壳底面位置浅，如海洋区。</p></blockquote><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184218762.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218184218762.png" srcset="/images/placeholder.svg" alt="image"/></div></div><p>  这样，在地幔的某一深度上，上覆岩石对地幔的压力处处相等，处于一种均衡状态 – <strong>地壳均衡原理</strong>。 </p><ul><li>对地壳了解深入<ul><li>钻探等手段</li><li>O, Si, Al, Fe, Ca, Na, K, Mg</li><li>大部分以硅酸盐形式存在——长石、角闪石、辉石、橄榄石、云母、高岭石</li><li>碳酸盐——方解石、白云石，几乎全部分布在地表</li><li>氧化物——石英</li><li>岩石是矿物的结合体——会结合成复杂的岩石</li><li>宝石</li></ul></li><li>简单介绍三大岩类<ul><li>结晶盐<ul><li>岩浆岩</li><li>变质岩</li></ul></li><li>沉积岩</li></ul></li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218222243025.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218222243025.png" srcset="/images/placeholder.svg" alt="image"/></div></div><h3 id="地球的外圈"><a href="#地球的外圈" class="headerlink" title="地球的外圈"></a>地球的外圈</h3><ul><li><p>大气圈</p><ul><li><p>低层大气成分——氮和氧</p></li><li><p>臭氧层</p></li><li><p>为地表及生命提供保护</p></li><li><p>地表生命的充分何必要的环境</p></li><li><p>提供营力（风）</p></li><li><p>地球系统的物质循环媒介</p></li></ul></li><li><p>水圈</p><ul><li>大陆——海洋水循环</li><li>外动力地质作用的最重要媒介，（尤其是河流）</li><li>生命依赖于水，生态因水改变</li><li>（人类）水资源（不可替代的资源）</li></ul></li><li><p>生物圈</p><ul><li>主要集中在陆地，海洋的表层</li><li>有生态系统组成</li><li>为人类提供必不可少的生物资源</li><li>外动力的地质作用</li></ul></li><li><p>与地质作用密切相关的：</p><ul><li>内圈和外圈</li><li>活动的岩石圈：</li><li>活跃的外层水、大气和生物：有很强的破坏力和改动作用</li></ul></li></ul><h3 id="思考题"><a href="#思考题" class="headerlink" title="思考题"></a>思考题</h3><blockquote><p>埃拉托色尼怎么知道亚历山大和赛伊尼在同一子午线上？</p><p>埃拉托色尼如何确定测量的同时性？</p></blockquote></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 工程地质 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 绪论 </tag>
             
         </tags>
       
@@ -1586,33 +1586,6 @@
     
     
     <entry>
-      <title>讲规矩 知方圆</title>
-      <link href="/learn/ccp/constitution_regulation/"/>
-      <url>/learn/ccp/constitution_regulation/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>——学习《党章》和《关于新形势下党内政治生活的若干准则》</p><div class="story post-story"><h2 id="中国共产党章程"><a href="#中国共产党章程" class="headerlink" title="中国共产党章程"></a>中国共产党章程</h2><h3 id="地位"><a href="#地位" class="headerlink" title="地位"></a>地位</h3><p>党的全国代表大会通过，属<strong>最高</strong>地位</p><p>党章于党类似宪法于国家</p><blockquote><p>党章是党的总章程，集中体现了党的性质和宗旨……</p><p>——习近平</p></blockquote><span id="more"></span><h3 id="结构与内容结构"><a href="#结构与内容结构" class="headerlink" title="结构与内容结构"></a>结构与内容结构</h3><p>党章分<code>纲领(变化的)</code>和<code>章程(不变的)</code>两个部分</p><h4 id="总纲"><a href="#总纲" class="headerlink" title="总纲"></a>总纲</h4><p>总纲部分规定了党的纲领</p><ul><li>中国共产党的性质和奋斗目标</li><li>中国共产党的指导思想</li><li>党的基本路线和基本纲领</li><li>党领导各项建设的基本原则和政策</li><li>党的建设的基本要求</li></ul><h4 id="章程"><a href="#章程" class="headerlink" title="章程"></a>章程</h4><p>共<code>11</code>个章节</p><ul><li>党员</li><li>党的组织制度</li><li>党的中央组织</li><li>党的地方组织</li><li>党的基层组织</li><li>党的干部</li><li>党的纪律<code>纪律处分条例</code></li><li>党的纪律检查机关</li><li>党组</li><li>党和共产主义青年团的关系</li><li>党徽党旗</li></ul><p>注意与<strong>条例</strong>的结合</p><h3 id="修订"><a href="#修订" class="headerlink" title="修订"></a>修订</h3><h4 id="党代会基本流程"><a href="#党代会基本流程" class="headerlink" title="党代会基本流程"></a>党代会基本流程</h4><ol><li>听取中央委员会报告</li><li>修改党章</li><li>选举中央委员会</li><li>选举中央纪律委员会</li></ol></div><div class="story post-story"><h2 id="新形势下党内政治生活的若干准则"><a href="#新形势下党内政治生活的若干准则" class="headerlink" title="新形势下党内政治生活的若干准则"></a>新形势下党内政治生活的若干准则</h2><h3 id="为什么要制定《准则》"><a href="#为什么要制定《准则》" class="headerlink" title="为什么要制定《准则》"></a>为什么要制定《准则》</h3><blockquote><p>任何政党都有政治属性，都有自己的政治革命、政治目标、政治追求。……如果马克思主义政党政治上的先进性丧失了，党的先进性和纯洁性就无从谈起。</p><p>——习近平</p></blockquote><p>苏区时期——王明政府——反例</p><p>延安时期——整风</p><p>政治生活的健康事关党的发展</p><h4 id="当前党内政治生活中存在的主要问题"><a href="#当前党内政治生活中存在的主要问题" class="headerlink" title="当前党内政治生活中存在的主要问题"></a>当前党内政治生活中存在的主要问题</h4><ul><li>在一些党员、干部摆阔高级干部中……，个人主义、分散主义、自由主义、好人主义、宗派主义、山头主义、拜金主义不同程度存在</li><li>形式主义、官僚主义、享乐主义和奢靡之风问题突出。</li><li>官员政治野心大</li><li>贪污腐败严重</li></ul><blockquote><p>历史经验表明，我们党作为马克思主义政党……的准则</p><p>——关于新形势下党内政治生活的若干准则</p></blockquote><h3 id="新《准则》与原《准则》-的关系"><a href="#新《准则》与原《准则》-的关系" class="headerlink" title="新《准则》与原《准则》 的关系"></a>新《准则》与原《准则》 的关系</h3><blockquote><p>在长期实践中，我们党坚持把开展严肃认真的党内政治生活……</p></blockquote><blockquote><p>1980年准则虽然至今仍然具有重要指导意义，但由于这个……</p></blockquote><table><thead><tr><th>原准则</th><th>新准则</th></tr></thead><tbody><tr><td>一、坚持党的政治路线和思想路线</td><td>一、坚定理想信念</td></tr><tr><td>二、坚持集体领导，反对个人专断</td><td>二、坚持党的基本路线</td></tr><tr><td>三、维护党的集中统一，严格遵守党的纪律</td><td>三、坚决维护党中央的权威</td></tr><tr><td>……</td><td>……</td></tr><tr><td>十二、努力学习，坚持又红又专</td><td>十二、保持清正廉洁的政治本色</td></tr></tbody></table><h3 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h3><ol><li>坚定理想信念</li><li>坚持党的基本路线</li><li>坚决维护党中央权威</li><li>严明党的政治纪律</li><li>保持党同人民群众的血肉联系</li><li>坚持民主集中原则</li><li>发扬党内民主和保障党员权利</li><li>坚持正确选人用人导向</li><li>严格党的组织生活制度</li><li>开展批评和自我批评</li><li>加强对权力运行的制约和监督</li><li>保持清正廉洁的政治本色</li></ol><h4 id="坚定理想信念"><a href="#坚定理想信念" class="headerlink" title="坚定理想信念"></a>坚定理想信念</h4><blockquote><p><strong>理想信念动摇是最危险的动摇，理想信念滑坡是最危险的滑坡</strong>。……的道路自信、理论自信、制度自信、文化自信。<strong>领导干部特别是高级干部要以实际行动让党员和群众感受到理想信念的强大力量</strong>。</p></blockquote><p>e.g. <code>苏联</code></p><p>朝阳大街</p><p>蒋南翔——去香山</p><h4 id="坚持党的基本路线"><a href="#坚持党的基本路线" class="headerlink" title="坚持党的基本路线"></a>坚持党的基本路线</h4><p>一个中心、两个基本点（坚持四项基本原则、坚持改革开放）</p><p>反对四项基本原则——右倾</p><h4 id="坚决维护党的权威"><a href="#坚决维护党的权威" class="headerlink" title="坚决维护党的权威"></a>坚决维护党的权威</h4><p>军队向前进、思想涨一寸</p><blockquote><p>全党……不准合意的执行，不合意的不执行</p></blockquote><h4 id="严明党的政治纪律"><a href="#严明党的政治纪律" class="headerlink" title="严明党的政治纪律"></a>严明党的政治纪律</h4><ul><li>不准散布违背党的理论和路线方针政策的言论</li><li>不准公开发表违背党中央决定的言论</li><li>不准泄露党和国家的秘密</li><li>不准参与非法组织和非法活动</li><li>不准制造、传播政治谣言及丑化党和国家形象的言论</li><li>不准搞封建迷信</li><li>不准信仰宗教</li><li>不准参与邪教</li><li>不准纵容和支持宗教极端势力、民族分裂势力、暴力恐怖势力及其活动</li><li>不准在党内搞小山头、小圈子、小团伙</li><li>严禁在党内拉私人关系、培植个人势力、结成利益集团</li><li>不准以任何理由和名义纵容、唆使、暗示或强迫下级弄虚作假、隐瞒实情的，都要依纪依规严肃问责追责</li><li>不准搞拉拉扯扯、吹吹拍拍、阿谀奉承</li></ul><h4 id="保持党同人民群众的血肉联系"><a href="#保持党同人民群众的血肉联系" class="headerlink" title="保持党同人民群众的血肉联系"></a>保持党同人民群众的血肉联系</h4><p>坚决反对命令主义、反对“尾巴主义”</p><h4 id="严格党的组织生活制度"><a href="#严格党的组织生活制度" class="headerlink" title="严格党的组织生活制度"></a>严格党的组织生活制度</h4><blockquote><p>全体党员、干部特别是高级干部必须增强党的意识，时刻牢记自己第一身份是党员。……，确保党的组织生活经常、认真、严肃。</p></blockquote><blockquote><p>坚持“三会一课”制度。……<strong>“三会一课”要突出政治学习和教育，突出党性修炼，坚决防止表面化、形式化、娱乐化、庸俗化。领导干部要</strong>……</p></blockquote><h4 id="开展批评和自我批评"><a href="#开展批评和自我批评" class="headerlink" title="开展批评和自我批评"></a>开展批评和自我批评</h4><blockquote><p>批评和自我批评必须坚持实事求是</p></blockquote></div><div class="story post-story"><h2 id="牢记《党章》和《准则》的要求，作合格的共产党员"><a href="#牢记《党章》和《准则》的要求，作合格的共产党员" class="headerlink" title="牢记《党章》和《准则》的要求，作合格的共产党员"></a>牢记《党章》和《准则》的要求，作合格的共产党员</h2><ul><li>要全面掌握《党章》和《准则》的基本内容</li><li>严格遵守《党章》和《准则》的各项规定</li></ul></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 党课 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 章程与条例 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>清华大学党组织的建立与优良传统</title>
       <link href="/learn/ccp/ccp_history/"/>
       <url>/learn/ccp/ccp_history/</url>
@@ -1632,6 +1605,33 @@
         <tags>
             
             <tag> 清华党史 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>讲规矩 知方圆</title>
+      <link href="/learn/ccp/constitution_regulation/"/>
+      <url>/learn/ccp/constitution_regulation/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>——学习《党章》和《关于新形势下党内政治生活的若干准则》</p><div class="story post-story"><h2 id="中国共产党章程"><a href="#中国共产党章程" class="headerlink" title="中国共产党章程"></a>中国共产党章程</h2><h3 id="地位"><a href="#地位" class="headerlink" title="地位"></a>地位</h3><p>党的全国代表大会通过，属<strong>最高</strong>地位</p><p>党章于党类似宪法于国家</p><blockquote><p>党章是党的总章程，集中体现了党的性质和宗旨……</p><p>——习近平</p></blockquote><span id="more"></span><h3 id="结构与内容结构"><a href="#结构与内容结构" class="headerlink" title="结构与内容结构"></a>结构与内容结构</h3><p>党章分<code>纲领(变化的)</code>和<code>章程(不变的)</code>两个部分</p><h4 id="总纲"><a href="#总纲" class="headerlink" title="总纲"></a>总纲</h4><p>总纲部分规定了党的纲领</p><ul><li>中国共产党的性质和奋斗目标</li><li>中国共产党的指导思想</li><li>党的基本路线和基本纲领</li><li>党领导各项建设的基本原则和政策</li><li>党的建设的基本要求</li></ul><h4 id="章程"><a href="#章程" class="headerlink" title="章程"></a>章程</h4><p>共<code>11</code>个章节</p><ul><li>党员</li><li>党的组织制度</li><li>党的中央组织</li><li>党的地方组织</li><li>党的基层组织</li><li>党的干部</li><li>党的纪律<code>纪律处分条例</code></li><li>党的纪律检查机关</li><li>党组</li><li>党和共产主义青年团的关系</li><li>党徽党旗</li></ul><p>注意与<strong>条例</strong>的结合</p><h3 id="修订"><a href="#修订" class="headerlink" title="修订"></a>修订</h3><h4 id="党代会基本流程"><a href="#党代会基本流程" class="headerlink" title="党代会基本流程"></a>党代会基本流程</h4><ol><li>听取中央委员会报告</li><li>修改党章</li><li>选举中央委员会</li><li>选举中央纪律委员会</li></ol></div><div class="story post-story"><h2 id="新形势下党内政治生活的若干准则"><a href="#新形势下党内政治生活的若干准则" class="headerlink" title="新形势下党内政治生活的若干准则"></a>新形势下党内政治生活的若干准则</h2><h3 id="为什么要制定《准则》"><a href="#为什么要制定《准则》" class="headerlink" title="为什么要制定《准则》"></a>为什么要制定《准则》</h3><blockquote><p>任何政党都有政治属性，都有自己的政治革命、政治目标、政治追求。……如果马克思主义政党政治上的先进性丧失了，党的先进性和纯洁性就无从谈起。</p><p>——习近平</p></blockquote><p>苏区时期——王明政府——反例</p><p>延安时期——整风</p><p>政治生活的健康事关党的发展</p><h4 id="当前党内政治生活中存在的主要问题"><a href="#当前党内政治生活中存在的主要问题" class="headerlink" title="当前党内政治生活中存在的主要问题"></a>当前党内政治生活中存在的主要问题</h4><ul><li>在一些党员、干部摆阔高级干部中……，个人主义、分散主义、自由主义、好人主义、宗派主义、山头主义、拜金主义不同程度存在</li><li>形式主义、官僚主义、享乐主义和奢靡之风问题突出。</li><li>官员政治野心大</li><li>贪污腐败严重</li></ul><blockquote><p>历史经验表明，我们党作为马克思主义政党……的准则</p><p>——关于新形势下党内政治生活的若干准则</p></blockquote><h3 id="新《准则》与原《准则》-的关系"><a href="#新《准则》与原《准则》-的关系" class="headerlink" title="新《准则》与原《准则》 的关系"></a>新《准则》与原《准则》 的关系</h3><blockquote><p>在长期实践中，我们党坚持把开展严肃认真的党内政治生活……</p></blockquote><blockquote><p>1980年准则虽然至今仍然具有重要指导意义，但由于这个……</p></blockquote><table><thead><tr><th>原准则</th><th>新准则</th></tr></thead><tbody><tr><td>一、坚持党的政治路线和思想路线</td><td>一、坚定理想信念</td></tr><tr><td>二、坚持集体领导，反对个人专断</td><td>二、坚持党的基本路线</td></tr><tr><td>三、维护党的集中统一，严格遵守党的纪律</td><td>三、坚决维护党中央的权威</td></tr><tr><td>……</td><td>……</td></tr><tr><td>十二、努力学习，坚持又红又专</td><td>十二、保持清正廉洁的政治本色</td></tr></tbody></table><h3 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h3><ol><li>坚定理想信念</li><li>坚持党的基本路线</li><li>坚决维护党中央权威</li><li>严明党的政治纪律</li><li>保持党同人民群众的血肉联系</li><li>坚持民主集中原则</li><li>发扬党内民主和保障党员权利</li><li>坚持正确选人用人导向</li><li>严格党的组织生活制度</li><li>开展批评和自我批评</li><li>加强对权力运行的制约和监督</li><li>保持清正廉洁的政治本色</li></ol><h4 id="坚定理想信念"><a href="#坚定理想信念" class="headerlink" title="坚定理想信念"></a>坚定理想信念</h4><blockquote><p><strong>理想信念动摇是最危险的动摇，理想信念滑坡是最危险的滑坡</strong>。……的道路自信、理论自信、制度自信、文化自信。<strong>领导干部特别是高级干部要以实际行动让党员和群众感受到理想信念的强大力量</strong>。</p></blockquote><p>e.g. <code>苏联</code></p><p>朝阳大街</p><p>蒋南翔——去香山</p><h4 id="坚持党的基本路线"><a href="#坚持党的基本路线" class="headerlink" title="坚持党的基本路线"></a>坚持党的基本路线</h4><p>一个中心、两个基本点（坚持四项基本原则、坚持改革开放）</p><p>反对四项基本原则——右倾</p><h4 id="坚决维护党的权威"><a href="#坚决维护党的权威" class="headerlink" title="坚决维护党的权威"></a>坚决维护党的权威</h4><p>军队向前进、思想涨一寸</p><blockquote><p>全党……不准合意的执行，不合意的不执行</p></blockquote><h4 id="严明党的政治纪律"><a href="#严明党的政治纪律" class="headerlink" title="严明党的政治纪律"></a>严明党的政治纪律</h4><ul><li>不准散布违背党的理论和路线方针政策的言论</li><li>不准公开发表违背党中央决定的言论</li><li>不准泄露党和国家的秘密</li><li>不准参与非法组织和非法活动</li><li>不准制造、传播政治谣言及丑化党和国家形象的言论</li><li>不准搞封建迷信</li><li>不准信仰宗教</li><li>不准参与邪教</li><li>不准纵容和支持宗教极端势力、民族分裂势力、暴力恐怖势力及其活动</li><li>不准在党内搞小山头、小圈子、小团伙</li><li>严禁在党内拉私人关系、培植个人势力、结成利益集团</li><li>不准以任何理由和名义纵容、唆使、暗示或强迫下级弄虚作假、隐瞒实情的，都要依纪依规严肃问责追责</li><li>不准搞拉拉扯扯、吹吹拍拍、阿谀奉承</li></ul><h4 id="保持党同人民群众的血肉联系"><a href="#保持党同人民群众的血肉联系" class="headerlink" title="保持党同人民群众的血肉联系"></a>保持党同人民群众的血肉联系</h4><p>坚决反对命令主义、反对“尾巴主义”</p><h4 id="严格党的组织生活制度"><a href="#严格党的组织生活制度" class="headerlink" title="严格党的组织生活制度"></a>严格党的组织生活制度</h4><blockquote><p>全体党员、干部特别是高级干部必须增强党的意识，时刻牢记自己第一身份是党员。……，确保党的组织生活经常、认真、严肃。</p></blockquote><blockquote><p>坚持“三会一课”制度。……<strong>“三会一课”要突出政治学习和教育，突出党性修炼，坚决防止表面化、形式化、娱乐化、庸俗化。领导干部要</strong>……</p></blockquote><h4 id="开展批评和自我批评"><a href="#开展批评和自我批评" class="headerlink" title="开展批评和自我批评"></a>开展批评和自我批评</h4><blockquote><p>批评和自我批评必须坚持实事求是</p></blockquote></div><div class="story post-story"><h2 id="牢记《党章》和《准则》的要求，作合格的共产党员"><a href="#牢记《党章》和《准则》的要求，作合格的共产党员" class="headerlink" title="牢记《党章》和《准则》的要求，作合格的共产党员"></a>牢记《党章》和《准则》的要求，作合格的共产党员</h2><ul><li>要全面掌握《党章》和《准则》的基本内容</li><li>严格遵守《党章》和《准则》的各项规定</li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 党课 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 章程与条例 </tag>
             
         </tags>
       
