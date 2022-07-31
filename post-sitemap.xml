@@ -9,16 +9,88 @@
 
 
     <url>
-        <loc>https://zypnb.top/community/activities/</loc>
-        <lastmod>2022-07-31T02:16:26.513Z</lastmod>
+        <loc>https://zypnb.top/learn/engineering_geology/out/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/twist/</loc>
-        <lastmod>2022-07-30T16:13:12.224Z</lastmod>
+        <loc>https://zypnb.top/learn/epm/advance/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/engineering_geology/struct/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/materials/3d/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/materials/uhpc/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_fluid/dynamics/</loc>
+        <lastmod>2022-07-31T10:17:41.303Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_fluid/kinematics/</loc>
+        <lastmod>2022-07-31T10:17:41.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_fluid/swirling/</loc>
+        <lastmod>2022-07-31T10:17:41.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_fluid/statics/</loc>
+        <lastmod>2022-07-31T10:17:41.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/intro/</loc>
+        <lastmod>2022-07-31T10:17:41.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/shear/</loc>
+        <lastmod>2022-07-31T10:17:41.278Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,7 +98,79 @@
 
     <url>
         <loc>https://zypnb.top/learn/mechanics_materials/tension/</loc>
-        <lastmod>2022-07-30T16:13:12.222Z</lastmod>
+        <lastmod>2022-07-31T10:17:41.259Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/twist/</loc>
+        <lastmod>2022-07-31T10:17:41.234Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/angle/</loc>
+        <lastmod>2022-07-31T10:17:41.205Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/axis/</loc>
+        <lastmod>2022-07-31T10:17:41.180Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/big/</loc>
+        <lastmod>2022-07-31T10:17:40.681Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/distance/</loc>
+        <lastmod>2022-07-31T10:17:40.681Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/height/</loc>
+        <lastmod>2022-07-31T10:17:40.681Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/intro/</loc>
+        <lastmod>2022-07-31T10:12:59.999Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/application/</loc>
+        <lastmod>2022-07-31T10:12:45.152Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/engineering_geology/intro/</loc>
+        <lastmod>2022-07-31T10:11:33.331Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,7 +178,7 @@
 
     <url>
         <loc>https://zypnb.top/learn/mechanics_materials/strength/</loc>
-        <lastmod>2022-07-30T16:13:12.218Z</lastmod>
+        <lastmod>2022-07-31T10:09:40.174Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -42,7 +186,39 @@
 
     <url>
         <loc>https://zypnb.top/learn/mechanics_materials/stiffness/</loc>
-        <lastmod>2022-07-30T16:13:12.216Z</lastmod>
+        <lastmod>2022-07-31T10:09:31.677Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/internal/</loc>
+        <lastmod>2022-07-31T10:08:47.915Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/energy/</loc>
+        <lastmod>2022-07-31T10:08:29.439Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/mechanics_materials/bending/</loc>
+        <lastmod>2022-07-31T10:08:14.289Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/community/activities/</loc>
+        <lastmod>2022-07-31T02:16:26.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -57,14 +233,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/shear/</loc>
-        <lastmod>2022-07-30T16:13:12.212Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/mechanics_materials/it/</loc>
         <lastmod>2022-07-30T16:13:12.210Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -73,40 +241,8 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/intro/</loc>
-        <lastmod>2022-07-30T16:13:12.208Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/internal/</loc>
-        <lastmod>2022-07-30T16:13:12.206Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/mechanics_materials/first_e/</loc>
         <lastmod>2022-07-30T16:13:12.204Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/energy/</loc>
-        <lastmod>2022-07-30T16:13:12.203Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_materials/bending/</loc>
-        <lastmod>2022-07-30T16:13:12.201Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -145,30 +281,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/servuy/intro/</loc>
-        <lastmod>2022-07-30T16:03:00.060Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/servuy/height/</loc>
-        <lastmod>2022-07-30T16:03:00.056Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/servuy/distance/</loc>
-        <lastmod>2022-07-30T16:03:00.053Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/servuy/delta/</loc>
         <lastmod>2022-07-30T16:03:00.051Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -193,48 +305,8 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/servuy/big/</loc>
-        <lastmod>2022-07-30T16:03:00.045Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/servuy/axis/</loc>
-        <lastmod>2022-07-30T16:03:00.043Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/servuy/application/</loc>
-        <lastmod>2022-07-30T16:03:00.041Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/servuy/angle/</loc>
-        <lastmod>2022-07-30T16:03:00.039Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/materials/water_concrete/</loc>
         <lastmod>2022-07-30T16:01:32.765Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/materials/uhpc/</loc>
-        <lastmod>2022-07-30T16:01:32.763Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -289,14 +361,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/materials/3d/</loc>
-        <lastmod>2022-07-30T16:01:32.747Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/innovation/intro/</loc>
         <lastmod>2022-07-30T16:01:07.500Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -321,14 +385,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/epm/advance/</loc>
-        <lastmod>2022-07-30T16:00:39.545Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/engineering_geology/water/</loc>
         <lastmod>2022-07-30T15:59:57.221Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -345,32 +401,8 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/engineering_geology/struct/</loc>
-        <lastmod>2022-07-30T15:59:57.217Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/engineering_geology/pic/</loc>
         <lastmod>2022-07-30T15:59:57.215Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/engineering_geology/out/</loc>
-        <lastmod>2022-07-30T15:59:57.213Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/engineering_geology/intro/</loc>
-        <lastmod>2022-07-30T15:59:57.211Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -401,30 +433,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/swirling/</loc>
-        <lastmod>2022-07-30T15:54:05.091Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/statics/</loc>
-        <lastmod>2022-07-30T15:53:58.113Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/kinematics/</loc>
-        <lastmod>2022-07-30T15:53:45.214Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/mechanics_fluid/intro/</loc>
         <lastmod>2022-07-30T15:53:09.927Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -435,14 +443,6 @@
     <url>
         <loc>https://zypnb.top/learn/mechanics_fluid/energy/</loc>
         <lastmod>2022-07-30T15:52:33.969Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://zypnb.top/learn/mechanics_fluid/dynamics/</loc>
-        <lastmod>2022-07-30T15:52:01.185Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
