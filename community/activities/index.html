@@ -26,7 +26,7 @@
   
   <!-- Custom Files headBegin end-->
     <link rel="shortcut icon" type="image/x-icon" href="https://zypnb.top/images/favicon-32x32.ico">
-  <link rel="preload" href="/css/style.1860c93d.css" as="style">
+  <link rel="preload" href="/css/style.bd98272b.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -45,7 +45,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2020-11-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2022-07-30T16:17:07.960Z">
+<meta property="article:modified_time" content="2022-07-31T02:16:26.513Z">
 <meta property="article:author" content="MPCB_Bishop">
 <meta property="article:tag" content="主题团日">
 <meta property="article:tag" content="TikTok">
@@ -223,6 +223,14 @@ button {
     background: rgba(255,255,255,0.9) !important;
     backdrop-filter: saturate(200%) blur(20px);
   }
+}
+@supports (backdrop-filter: blur(20px)) {
+  .blur#comments {
+    backdrop-filter: unset;
+  }
+}
+#layoutHelper-comments {
+  margin-bottom: 100px;
 }
 .shadow {
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
@@ -1837,8 +1845,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.1860c93d.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.1860c93d.css"></noscript>
+  <link rel="stylesheet" href="/css/style.bd98272b.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.bd98272b.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1916,9 +1924,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659201686932","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659201686932","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659201686932","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659201686932","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659201686932","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659201686932","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659201686932"},"css":{"style":"/css/style.1860c93d.css"}},
+    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659237024863","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659237024863","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659237024863","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659237024863","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659237024863","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659237024863","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659237024863"},"css":{"style":"/css/style.bd98272b.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1659201686932),
+    lastupdate: new Date(1659237024863),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","lastupdate"],
       for_post: ["toc"],
@@ -3055,7 +3063,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <span class="p center small">合影</span>
 
-</div><div class="story post-story"><h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>[1] <a href="./reading.pdf">主题团日阅读材料</a></p>
+</div><div class="story post-story"><h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>[1] <a target="_blank" rel="external nofollow noopener noreferrer" href="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/reading.pdf">主题团日阅读材料</a></p>
 
 </div>
   </div>
@@ -3114,7 +3122,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class="new-meta-box">
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-07-31T00:17:07+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-07-31T10:16:26+08:00">
   <a class="notlink">
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2022年7月31日</p>
@@ -3620,7 +3628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659201686932"></script>
+<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659237024863"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3843,19 +3851,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659201686932")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659237024863")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659201686932")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659237024863")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659201686932")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659237024863")
       }
     
   };
@@ -3951,7 +3959,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     await volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/meting/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659201686932')
+    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659237024863')
   
   })();
 
@@ -4022,53 +4030,51 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
       <script>
-  volantis.layoutHelper("comments",`<div id="giscus_container"></div>`)
-
-  volantis.giscus = {};
-
-  function check_giscus() {
-    if (volantis.dark.mode === "dark") {
-      volantis.giscus.Theme = 'dark';
-    } else {
-      volantis.giscus.Theme = 'light';
+  volantis.layoutHelper("comments",`<div id="waline"><i class="fa-solid fa-cog fa-spin fa-fw fa-2x"></i></div>`)
+  
+  function pjax_waline() {
+    if(!document.querySelector("#waline"))return;
+    let locale = {};
+    let path = pdata.commentPath;
+    let pagePlaceholder = pdata.commentPlaceholder || "欢迎留言。（填写邮箱可在被回复时收到邮件提醒）";
+    if (path.length == 0) {
+      let defaultPath = '';
+      path = defaultPath || decodeURI(window.location.pathname);
+    }
+    if(pagePlaceholder.length != 0) {
+      locale.placeholder = pagePlaceholder;
     }
 
-    return document.getElementById("giscus_container");
+    try {
+      Waline.init(Object.assign(Object.assign({"js":"https://unpkg.com/@waline/client@v2/dist/waline.js","css":"https://unpkg.com/@waline/client@v2/dist/waline.css","path":null,"placeholder":"欢迎留言。（填写邮箱可在被回复时收到邮件提醒）","serverURL":"https://xiao-space-comment.vercel.app","imageUploader":{"api":null,"token":null,"resp":null},"pageview":true,"comment":true}, {
+        el: '#waline',
+        path: path,
+        // https://github.com/volantis-x/hexo-theme-volantis/issues/713
+        
+        locale,
+      }),pdata.commentConfig));
+    } catch (error) {
+      alert(`Waline ${error}`)
+    }
+    fancybox_waline()
   }
 
-  function pjax_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"guyi2000/XiaoSpaceDiscussion","repo-id":"R_kgDOHvEhHw","category":"Announcements","category-id":"DIC_kwDOHvEhH84CQgCR","mapping":"pathname","strict":"0","reactions-enabled":"1","emit-metadata":"0","input-position":"bottom","lang":"zh-CN"},pdata.commentConfig)
-    const script = document.createElement('script');
-    script.setAttribute('src', 'https://giscus.app/client.js');
-    Object.keys(cfg).forEach(k=>{
-      if (k != "theme") {
-        script.setAttribute('data-'+k, cfg[k]);
-      }
-    })
-    script.setAttribute('data-theme', volantis.giscus.Theme);
-    script.setAttribute('crossorigin', "anonymous");
-    HEAD.appendChild(script);
+  function fancybox_waline() {
+    if(typeof VolantisFancyBox === "undefined") {
+      const checkFancyBox = setInterval(() => {
+        if(typeof VolantisFancyBox === "undefined") return;
+        clearInterval(checkFancyBox);
+        VolantisFancyBox.bind('#waline .wl-content img:not(.wl-emoji)');
+      })
+    } else {
+      VolantisFancyBox.bind('#waline .wl-content img:not(.wl-emoji)');
+    }
   }
 
-  function dark_giscus() {
-    const HEAD = check_giscus();
-    if (!HEAD) return;
-
-    const message = {
-      setConfig: {
-        theme: volantis.giscus.Theme
-      }
-    };
-    const giscusIframe = document.querySelector('iframe.giscus-frame');
-    giscusIframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-  }
-  pjax_giscus();
-  volantis.pjax.push(pjax_giscus);
-  volantis.dark.push(dark_giscus);
+  volantis.css('https://unpkg.com/@waline/client@v2/dist/waline.css')
+  volantis.js('https://unpkg.com/@waline/client@v2/dist/waline.js').then(pjax_waline)
+  volantis.pjax.push(pjax_waline);
 </script>
-
     
 
 
@@ -4085,7 +4091,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659201686932");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659237024863");
   }
 
   function loadSearchService() {
@@ -4156,9 +4162,9 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   <script defer>
 
   const LCCounter = {
-    app_id: 'v9KD8haIPKnG5dPsxHWoJ8jL-gzGzoHsz',
-    app_key: 'xj1ymBSYwtWQT9Lq2sOJm1BB',
-    custom_api_server: 'https://v9kd8hai.lc-cn-n1-shared.com',
+    app_id: 'gNbVHd0VLQeTQP6OEHYGpPjU-MdYXbMMI',
+    app_key: 's8VPrAW8tSJKLEHc11gxmamp',
+    custom_api_server: '',
 
     // 查询存储的记录
     getRecord(Counter, url, title) {
@@ -4655,7 +4661,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/大学/","name":"大学"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/大学/团支部/","name":"团支部"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/community/activities/","name":"主题团日 | TikTok收购事件——从短兵相接到中美博弈"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"主题团日 | TikTok收购事件——从短兵相接到中美博弈","description":"2020年11月21日，土木85班开展了以“TikTok收购事件——从短兵相接到中美博弈”为主题的团日活动。本次活动由团支书顾燚同学主持，并邀请土木85班班主任杨赞老师与土木18党支部书记林涛学长参加活动。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/community/activities/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/community/activities/","wordCount":103,"datePublished":"2020-11-23T16:00:00.000Z","dateModified":"2022-07-30T16:17:07.960Z","articleSection":"大学","keywords":"主题团日,TikTok","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/大学/","name":"大学"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/大学/团支部/","name":"团支部"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/community/activities/","name":"主题团日 | TikTok收购事件——从短兵相接到中美博弈"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"主题团日 | TikTok收购事件——从短兵相接到中美博弈","description":"2020年11月21日，土木85班开展了以“TikTok收购事件——从短兵相接到中美博弈”为主题的团日活动。本次活动由团支书顾燚同学主持，并邀请土木85班班主任杨赞老师与土木18党支部书记林涛学长参加活动。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/community/activities/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/community/activities/","wordCount":103,"datePublished":"2020-11-23T16:00:00.000Z","dateModified":"2022-07-31T02:16:26.513Z","articleSection":"大学","keywords":"主题团日,TikTok","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
