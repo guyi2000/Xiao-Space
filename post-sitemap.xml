@@ -161,14 +161,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/learn/servuy/big/</loc>
-        <lastmod>2022-07-31T10:17:40.681Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://zypnb.top/learn/servuy/distance/</loc>
         <lastmod>2022-07-31T10:17:40.681Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -178,6 +170,14 @@
 
     <url>
         <loc>https://zypnb.top/learn/servuy/height/</loc>
+        <lastmod>2022-07-31T10:17:40.681Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/learn/servuy/big/</loc>
         <lastmod>2022-07-31T10:17:40.681Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
