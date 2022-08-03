@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://zypnb.top/learn/servuy/delta/">
+  <link rel="canonical" href="https://zypnb.top/learn/survey/axis/">
   <!-- 渲染优化 -->
     <meta http-equiv="x-dns-prefetch-control" content="on">
       <link rel="dns-prefetch" href="https://unpkg.com">
@@ -33,37 +33,27 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="Xiao Space" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>测量误差 - Xiao Space</title>
-  <meta name="keywords" content="误差,Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao">
-  <meta desc name="description" content="概述误差来源
-测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。
-观测值与真值之差，称为真误差。  
-仪器原因
-观测人员的原因
-外界环境影响
-观测者、测量仪器和外界条件称为观测条件。
-
-偶然误差特性
-有界性：
-
-
-在一定的条件下，偶然误差的绝对值不会超过一定的限度；
-
-
-离散性：
-... - MPCB_Bishop - Xiao Space">
+  <title>不同的坐标表示及转换 - Xiao Space</title>
+  <meta name="keywords" content="坐标换算,Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao">
+  <meta desc name="description" content="不同的坐标表示及转换
+此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）
+大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置
+基准是参考椭球面和法线，用大地经度L和大地纬度B表示
+P点大地经度L：过P点的大地子午面和首子午面所夹的两面角
+P点大地纬度B：过P点的法线与赤道面的夹角
+P点大地高H ：... - MPCB_Bishop - Xiao Space">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="测量误差">
-<meta property="og:url" content="https://zypnb.top/learn/servuy/delta/index.html">
+<meta property="og:title" content="不同的坐标表示及转换">
+<meta property="og:url" content="https://zypnb.top/learn/survey/axis/index.html">
 <meta property="og:site_name" content="Xiao Space">
-<meta property="og:description" content="概述误差来源 测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。 观测值与真值之差，称为真误差。   仪器原因 观测人员的原因 外界环境影响 观测者、测量仪器和外界条件称为观测条件。  偶然误差特性 有界性：   在一定的条件下，偶然误差的绝对值不会超过一定的限度；   离散性：   绝对值小的误差比绝对值大的误差出现的机会多；   对称性：   绝对值相等的正负误">
+<meta property="og:description" content="不同的坐标表示及转换 此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇） 大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置 基准是参考椭球面和法线，用大地经度L和大地纬度B表示 P点大地经度L：过P点的大地子午面和首子午面所夹的两面角 P点大地纬度B：过P点的法线与赤道面的夹角 P点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）  空间直角坐标系：  坐标原点 O：">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-<meta property="article:published_time" content="2020-05-22T06:43:57.000Z">
-<meta property="article:modified_time" content="2022-07-30T16:03:00.051Z">
+<meta property="article:published_time" content="2020-05-22T05:32:02.000Z">
+<meta property="article:modified_time" content="2022-08-03T08:08:04.651Z">
 <meta property="article:author" content="MPCB_Bishop">
-<meta property="article:tag" content="误差">
+<meta property="article:tag" content="坐标换算">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -1939,9 +1929,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659331365982","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659331365982","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659331365982","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659331365982","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659331365982","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659331365982","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659331365982"},"css":{"style":"/css/style.bd98272b.css"}},
+    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659514747153","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659514747153","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659514747153","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659514747153","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659514747153","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659514747153","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659514747153"},"css":{"style":"/css/style.bd98272b.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1659331365982),
+    lastupdate: new Date(1659514747153),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","lastupdate"],
       for_post: ["toc"],
@@ -2641,7 +2631,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://zypnb.top/learn/servuy/delta/">
+  <link itemprop="mainEntityOfPage" href="https://zypnb.top/learn/survey/axis/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Xiao Space">
   </span>
@@ -2662,7 +2652,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        测量误差
+        不同的坐标表示及转换
       </h1>
       <div class="new-meta-box">
         
@@ -2697,7 +2687,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
         
           
-            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2020-05-22T14:43:57+08:00">
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2020-05-22T13:32:02+08:00">
   <a class="notlink">
     <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年5月22日</p>
@@ -2715,7 +2705,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <p>
       <i class="fa-solid fa-eye fa-fw" aria-hidden="true"></i>
       
-      <span id="lc-pv" data-title="测量误差" data-path="/learn/servuy/delta/">
+      <span id="lc-pv" data-title="不同的坐标表示及转换" data-path="/learn/survey/axis/">
         <span id="number"><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span>
       </span>
       
@@ -2732,13 +2722,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class="notlink">
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：244 字</p>
+      <p>字数：2.6k 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
     <a class="notlink">
       <i class="fa-solid fa-hourglass-half fa-fw" aria-hidden="true"></i>
-      <p>时长：1 分钟</p>
+      <p>时长：8 分钟</p>
     </a>
   </div>
 
@@ -2755,63 +2745,290 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <div class="story post-story"><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><h3 id="误差来源"><a href="#误差来源" class="headerlink" title="误差来源"></a>误差来源</h3><ul>
-<li>测量中的被观测量，客观上都存在着一个真实值， 简称<strong>真值</strong>。对该量进行观测得到<strong>观测值</strong>。</li>
-<li>观测值与真值之差，称为<strong>真误差</strong>。  </li>
-<li>仪器原因</li>
-<li>观测人员的原因</li>
-<li>外界环境影响</li>
-<li>观测者、测量仪器和外界条件称为观测条件。</li>
+    <div class="story post-story"><h2 id="不同的坐标表示及转换"><a href="#不同的坐标表示及转换" class="headerlink" title="不同的坐标表示及转换"></a>不同的坐标表示及转换</h2><ul>
+<li>此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）</li>
+<li>大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置</li>
+<li>基准是参考椭球面和法线，用大地经度L和大地纬度B表示</li>
+<li>P点大地经度L：过P点的大地子午面和首子午面所夹的两面角</li>
+<li>P点大地纬度B：过P点的法线与赤道面的夹角</li>
+<li>P点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）</li>
 </ul>
-</div><div class="story post-story"><h2 id="偶然误差特性"><a href="#偶然误差特性" class="headerlink" title="偶然误差特性"></a>偶然误差特性</h2><ol>
-<li>有界性：</li>
-</ol>
+<p><strong>空间直角坐标系</strong>：</p>
 <ul>
-<li>在一定的条件下，偶然误差的绝对值不会超过一定的限度；</li>
+<li>坐标原点 O：地球椭球体中心（与质心重合）</li>
+<li>Z 轴方向： 指向地球北极</li>
+<li>X 轴方向： 指向格林尼治子午面与地球赤道面之交点</li>
+<li>Y 轴方向： 垂直于XOZ平面，构成右手坐标系。</li>
 </ul>
-<ol start="2">
-<li>离散性：</li>
-</ol>
-<ul>
-<li>绝对值小的误差比绝对值大的误差出现的机会多；</li>
-</ul>
-<ol start="3">
-<li>对称性：</li>
-</ol>
-<ul>
-<li>绝对值相等的正负误差出现的机会相等；</li>
-</ul>
-<ol start="4">
-<li>抵偿性：</li>
-</ol>
+<p><strong>空间直角坐标与大地坐标间的转换</strong>：</p>
+<p>卯酉圈：纬圈，N为卯酉圈的偏心率</p>
+<p>左右都有B，需要迭代求解——达到一定精度停止</p>
 <span id="more"></span>
 
+<p><strong>平面直角坐标系</strong>：</p>
 <ul>
-<li>偶然误差的算术平均值趋近于零，即</li>
+<li><p>大地坐标计算复杂，小范围内使用不够方便——所以局部地区测量最好用平面直角坐标系。</p>
+</li>
+<li><p>我国采用的高斯-克吕格正形投影(简称<strong>高斯投影</strong>)</p>
+</li>
+<li><p>变形</p>
+</li>
+<li><p>（B，L）——&gt;（x，y）</p>
+</li>
+<li><p>即$x&#x3D;f_x(B. L)$，$y&#x3D;f_y(B, L)$</p>
+</li>
+<li><p>需要设定一定的边界条件——中央子午线不变、保角？</p>
+</li>
+<li><p>高斯投影属于保角投影——地球上方位与地图上方位保持不变，球面上的角度投影到横椭圆柱面上后保持不变，而距离将变长</p>
+</li>
+<li><p>分带投影——带宽问题——变形与误差——分带越多——效率越低</p>
+</li>
+<li><p>最好分为6°带</p>
+</li>
+<li><p>因此带号N与中央子午线经度$L_0$的关系：$L_0&#x3D;6N-3$，$N&#x3D;INT(L&#x2F;6)+1$</p>
+</li>
 </ul>
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133636389.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133636389.png" srcset="/images/placeholder.svg" alt="image"></div></div>
-
-</div><div class="story post-story"><h2 id="衡量精度的标准"><a href="#衡量精度的标准" class="headerlink" title="衡量精度的标准"></a>衡量精度的标准</h2><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133922883.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133922883.png" srcset="/images/placeholder.svg" alt="image"></div></div>
-
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133930670.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133930670.png" srcset="/images/placeholder.svg" alt="image"></div></div>
-
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133955662.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522133955662.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225155220322.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225155220322.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 <ul>
-<li>注意本题给出了真值</li>
+<li><p><em>x</em>轴与<em>y</em>轴互换了位置</p>
+<p>象限按顺时针方向编号，以保证各类三角函数计算可直接在高斯平面直角坐标系中进行</p>
+</li>
+<li><p>把中央子午线移动500km</p>
+</li>
+<li><p>为确定投影带的位置，还在<em>y</em>坐标前冠以带号</p>
+</li>
+<li><p>例：xm&#x3D;1346216.985m    ym&#x3D;19634527.165m  19为带号数</p>
+</li>
+<li><p>真实坐标(1346216.985, 134527.165)</p>
+</li>
+<li><p>如果选用3°带</p>
+</li>
+<li><p>三度带奇数中央子午线与六度带重合</p>
+</li>
+<li><p>因此带号N与中央子午线经度$L_0$的关系：$L_0&#x3D;3N$，$N&#x3D;INT((L-1.5)&#x2F;3)+1$</p>
+</li>
+<li><p>我国大陆所处的经度范围是东经73°27′~东经135°09′</p>
+</li>
+<li><p>统一6°带投影与统一3°带投影的带号范围分别为13~23，25~45</p>
+</li>
+<li><p>两种投影带的带号不重复，根据<em>y</em>坐标前的带号可以判断属于何种投影带</p>
+</li>
 </ul>
-</div><div class="story post-story"><h2 id="误差传播定律"><a href="#误差传播定律" class="headerlink" title="误差传播定律"></a>误差传播定律</h2><ul>
-<li>倍乘——乘法</li>
+<p><strong>独立坐标系</strong>：</p>
+<ul>
+<li>原点、坐标轴、坐标轴的尺度</li>
+<li>为什么？——国家安全、减小投影变形、使用方便</li>
+<li>保密作用——把中央子午线定在城市中心位置——形成独立坐标系——抬高投影面——平均海拔较高——地球、参考椭球——计算出的长度基本一致等等</li>
+<li>例如长江大桥建桥——桥轴线为x轴</li>
+<li>地面点的高程系统<ul>
+<li>绝对高程：地面点沿铅垂线到大地水准面的距离，也称<strong>海拔</strong>，简称<strong>高程</strong></li>
+<li>相对高程：地面上一点到假定水准面的铅垂距离（H′）</li>
+<li>高  差：地面上两点间的高程之差（h）</li>
+<li>在海边设立验潮站(tide gauge station)，进行长期观测，求得海水面的平均高度作为高程零点，以通过该点的大地水准面为高程基准面(height datum)。建在海边——测量海面高度的站——验潮站——测量水准点与</li>
+<li>大地水准面上的高程恒为<strong>零</strong></li>
+<li>我国有两个国家高程系统：(1)1956年黄海高程系（2）“1985国家高程基准”</li>
 </ul>
-</div><div class="story post-story"><h2 id="等精度观测值数据处理"><a href="#等精度观测值数据处理" class="headerlink" title="等精度观测值数据处理"></a>等精度观测值数据处理</h2><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FiCAwuULi98u-eHj0XqFxdpxAJEl.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FiCAwuULi98u-eHj0XqFxdpxAJEl.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225162542962.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225162542962.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
-</div><div class="story post-story"><h2 id="不同精度观测值的数据处理"><a href="#不同精度观测值的数据处理" class="headerlink" title="不同精度观测值的数据处理"></a>不同精度观测值的数据处理</h2><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/Fn4-3x-Iu7gxSNBX-C9magH6i3RH.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/Fn4-3x-Iu7gxSNBX-C9magH6i3RH.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+</div><div class="story post-story"><h2 id="确定地面点的坐标"><a href="#确定地面点的坐标" class="headerlink" title="确定地面点的坐标"></a>确定地面点的坐标</h2><h3 id="地面点的坐标表示"><a href="#地面点的坐标表示" class="headerlink" title="地面点的坐标表示"></a>地面点的坐标表示</h3><ul>
+<li><p>坐标系：54坐标系&#x2F;80坐标系&#x2F;CGCS2000&#x2F;WGS84</p>
+</li>
+<li><p>可以直接采用三维坐标表示（空间直角坐标、大地坐标）</p>
+<ul>
+<li>空间直角坐标（XYZ，简单但不直观）</li>
+<li>大地坐标（BLH，直观但不方便，大地高不能在工程中直接应用）</li>
+<li>是采用空间定位技术（如卫星定位）时最常用的点的表示方法</li>
+</ul>
+</li>
+<li><p>平面和高程分别表示（2+1维）</p>
+<ul>
+<li>平面坐标：xy高斯投影或独立坐标</li>
+<li>高程：h海拔高程</li>
+<li>简单、直观，方便工程应用</li>
+<li>缺点：平面与高程分离，不是真三维坐标，不利于空间定位技术（如卫星定位）的发展</li>
+<li>是我国目前最常用的地面点的表示方法</li>
+</ul>
+</li>
+<li><p>确定地面某点的平面坐标</p>
+<ul>
+<li>首先需要确定坐标系，常采用平面直角坐标<ul>
+<li>国家坐标系（高斯平面直角坐标）</li>
+<li>独立坐标系（通常以西南角为原点，X指北，Y指东）</li>
+</ul>
+</li>
+<li>需要足够的起算数据（没有时可假定）</li>
+<li>需要采用一定的测量方法</li>
+<li>需要有足够的观测量</li>
+</ul>
+</li>
+<li><p>确定地面某点高程</p>
+</li>
+<li><p><strong>常规测量的基本工作</strong></p>
+<ul>
+<li>测距离 D </li>
+<li>测角度β</li>
+<li>测高差 h</li>
+</ul>
+</li>
+</ul>
+<h3 id="确定地面点坐标的基本概念"><a href="#确定地面点坐标的基本概念" class="headerlink" title="确定地面点坐标的基本概念"></a>确定地面点坐标的基本概念</h3><ol>
+<li>地球表面的形状</li>
+</ol>
+<ul>
+<li>地貌：地球表面高低起伏的形态，例如：高山、峡谷等</li>
+<li>地物：地面上人造或天然固定物体，例如：建筑、桥梁、道路等</li>
+</ul>
+<ol start="2">
+<li>测量的主要任务是测定和测设，变形监测</li>
+</ol>
+<ul>
+<li><p>测定——将地物和地貌按一定的比例尺缩小绘制成地形图</p>
+</li>
+<li><p>测设——将设计图纸上的点放到实地上</p>
+</li>
+<li><p>变形监测——需要看各类物的变形</p>
+</li>
+</ul>
+<ol start="3">
+<li>碎部测量与控制测量</li>
+</ol>
+<ul>
+<li>地物、地貌的特征点又称碎部点，测量碎部点坐标的方法与过程称为碎部测量</li>
+<li>例如测量房子就叫碎步测量</li>
+<li>在测量碎部点坐标之前需要布设一些已知点，测量上将这些已知点称为控制点，测量与计算控制点坐标的方法与过程称为控制测量</li>
+</ul>
+<h4 id="方位角"><a href="#方位角" class="headerlink" title="方位角"></a>方位角</h4><ul>
+<li>由直线一端–标准方向的北端起，顺时针量至某一直线的水平夹角，称为该直线的方位角，其取值范围是0°~360°</li>
+<li>标准方向：<ul>
+<li>真北方向:过真子午线上任一点所作的切线方向。采用天文测量的方法测定，如观测太阳、北极星等，也可用陀螺经纬仪测定。在北半球，不同点处的真北方向收敛于地球的北极。（方位角称为真方位角用$A$表示）</li>
+<li>磁北方向:过磁子午线上任一点所作的切线方向。可用指南针测定。磁针自由静止时，其北端所指方向即为磁北方向。在北半球，不同点处的磁北方向收敛地球的磁北极（称为磁方位角用$A_m$表示）</li>
+<li>坐标北方向:坐标纵轴（x轴）正向所示方向，称为坐标北方向。在同一坐标系中，各点处的坐标北方向是相互平行的。</li>
+</ul>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225165759400.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200225165759400.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
-<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FlczcYAy_0xGmCPhiIsb1XKzpK51.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FlczcYAy_0xGmCPhiIsb1XKzpK51.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+<ul>
+<li>坐标北方位角——本学期主要</li>
+</ul>
+<p><strong>方位角的计算：</strong></p>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228133311199.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228133311199.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
-</div><div class="story post-story"><h2 id="点位误差的概念"><a href="#点位误差的概念" class="headerlink" title="点位误差的概念"></a>点位误差的概念</h2><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522143756577.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200522143756577.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+<ul>
+<li>注意值域的映射——方位角的关系</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228133518264.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228133518264.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
-</div><div class="story post-story"><h2 id="应用举例"><a href="#应用举例" class="headerlink" title="应用举例"></a>应用举例</h2>
+<ul>
+<li><p>由于地面两点真(磁)子午线<strong>不平行</strong>，存在<strong>子午线收敛角</strong>和<strong>磁偏角</strong>，则真(磁)方位角的正、反方位角不是差180°只有<strong>坐标方位角</strong>才满足上式关系。</p>
+</li>
+<li><p>坐标方位角的确定：通过已知坐标反算；通过与已知边的连测推算</p>
+</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134104512.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134104512.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>非常<emp>重要</emp></li>
+<li>坐标正算</li>
+<li>已知：</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134432668.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134432668.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>求：</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134454165.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134454165.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>坐标反算</li>
+<li>已知：</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134529247.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134529247.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>求：</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134542789.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228134542789.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<h4 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h4><ul>
+<li>极坐标法，已知两点坐标，求另一点坐标</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FjEjRLL_mmsHOCPldTeNjRh0N6Kp.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/FjEjRLL_mmsHOCPldTeNjRh0N6Kp.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>前方交会</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228135443270.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228135443270.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>后方交会</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228140133960.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228140133960.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228140141283.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228140141283.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li>注意：前方交会顺序必须是顺时针！逆时针需要将角度反号</li>
+</ul>
+<div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228135944690.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200228135944690.png" srcset="/images/placeholder.svg" alt="image"></div></div>
+
+<ul>
+<li><p>后方交会要注意危险圆！</p>
+</li>
+<li><p>后方交会有其现实意义</p>
+</li>
+<li><p>距离交汇</p>
+</li>
+<li><p>按交汇的图形来分：</p>
+<ul>
+<li>前方交会</li>
+<li>测方交会</li>
+<li>后方交会</li>
+</ul>
+</li>
+<li><p>按观测值类型分：</p>
+<ul>
+<li>测角交会</li>
+<li>侧边交会</li>
+<li>边角交会</li>
+</ul>
+</li>
+</ul>
+<h4 id="卫星定位方法"><a href="#卫星定位方法" class="headerlink" title="卫星定位方法"></a>卫星定位方法</h4><ul>
+<li>控制点放到卫星上，测距离——定位置</li>
+<li>利用卫星信号接受机，同时接受多颗定位卫星发射的信号进行定位，称为卫星定位。</li>
+<li>每颗卫星播发独立的无线电信号进行距离测量: 距离 &#x3D; 光速 x 时间</li>
+<li>为了精确测定时间，卫星上常使用高精度原子钟，GPS接收机内置较廉价的钟，其计时精度比原子钟的精度低得多，设想一下接收机上钟的误差对距离测定的影响：1&#x2F;1,000,000 秒的测时误差将引起300m的距离误差</li>
+<li>因此一般需要同时观测4颗以上的卫星，求解3个坐标参数及1个接收机钟差参数</li>
+</ul>
+<h3 id="测量工作的原则"><a href="#测量工作的原则" class="headerlink" title="测量工作的原则"></a>测量工作的原则</h3><ul>
+<li>从整体到局部，先控制后碎部，从高精度到低精度（控制点），逐级加密，层层检核。</li>
+<li>减小误差积累，保证测图精度</li>
+<li>可以分幅测绘，加快测图进度</li>
+<li>防止错漏发生，保证成果正确</li>
+</ul>
+<h3 id="什么是小地区？"><a href="#什么是小地区？" class="headerlink" title="什么是小地区？"></a>什么是小地区？</h3><ul>
+<li>地球曲率对测量工作的影响<ul>
+<li>当测区范围较小时，可以将大地水准面近似当作水平平面看待</li>
+<li>看作水平面是，需要考虑水平距离和高程影响</li>
+</ul>
+</li>
+<li>结论：在半径为10km的园内距离，可用切平面代替大地水准面</li>
+<li>对水平角的影响<ul>
+<li>从球面三角可知，球面上三角形内角之和比平面上相应三角形内角之和多出球面角超 ，其值可用多边形面积求得。</li>
+<li>当测区范围在100km2时，用平面代替水准面时，对角度影响仅为0.51″，在普通测量工作中可以忽略不计</li>
+</ul>
+</li>
+<li>对高差影响<ul>
+<li>在高程测量中,即使距离很短也应考虑地球曲率的影响.</li>
+</ul>
+</li>
+<li>参考椭球面是测量计算的基准面</li>
+</ul>
+
 </div>
   </div>
   
@@ -2828,7 +3045,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <i class="fa-solid fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
     </section>
     <section class="body">
-      <div class="vlts-rps"><a class="item" href="\learn\servuy\angle\" title="角度测量" rel="bookmark "><span class="title">角度测量</span><span class="excerpt">角度测量原理
+      <div class="vlts-rps"><a class="item" href="\learn\survey\angle\" title="角度测量" rel="bookmark "><span class="title">角度测量</span><span class="excerpt">角度测量原理
 角度测量包括：水平角、数值角（或天顶距）
 水平角：地面上一点到两个目标的方向线垂直投影到水平面上所成的夹角。...</span></a></div></section></div>
       
@@ -2837,8 +3054,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
           <div class="copyright license">
-            <div class="license-title">测量误差</div>
-            <div class="license-link"><a href="https://zypnb.top/learn/servuy/delta/">https://zypnb.top/learn/servuy/delta/</a>
+            <div class="license-title">不同的坐标表示及转换</div>
+            <div class="license-link"><a href="https://zypnb.top/learn/survey/axis/">https://zypnb.top/learn/survey/axis/</a>
             </div>
             <div class="license-meta">
               <div class="license-meta-item">
@@ -2852,7 +3069,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               <div class="license-meta-item">
                 <div class="license-meta-title">更新于</div>
-                <div class="license-meta-text">2022年7月31日</div>
+                <div class="license-meta-text">2022年8月3日</div>
               </div>
               
               
@@ -2877,10 +3094,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class="new-meta-box">
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-07-31T00:03:00+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-08-03T16:08:04+08:00">
   <a class="notlink">
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年7月31日</p>
+    <p>更新于：2022年8月3日</p>
   </a>
 </div>
 
@@ -2889,8 +3106,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E8%AF%AF%E5%B7%AE/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>误差</p></a></div>
-  <span hidden itemprop="keywords">误差</span>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E5%9D%90%E6%A0%87%E6%8D%A2%E7%AE%97/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>坐标换算</p></a></div>
+  <span hidden itemprop="keywords">坐标换算</span>
 
 
         
@@ -2901,35 +3118,24 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="-mob-share-list share-body">
     
       
-        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zypnb.top/learn/servuy/delta/&title=测量误差 - Xiao Space&summary=概述误差来源
-测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。
-观测值与真值之差，称为真误差。  
-仪器原因
-观测人员的原因
-外界环境影响
-观测者、测量仪器和外界条件称为观测条件。
+        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://zypnb.top/learn/survey/axis/&title=不同的坐标表示及转换 - Xiao Space&summary=不同的坐标表示及转换
+此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）
+大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置
+基准是参考椭球面和法线，用大地经度L和大地纬度B表示
+P点大地经度L：过P点的大地子午面和首子午面所夹的两面角
+P点大地纬度B：过P点的法线与赤道面的夹角
+P点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）
 
-偶然误差特性
-有界性：
+空间直角坐标系：
 
+坐标原点 O：地球椭球体中心（与质心重合）
+Z 轴方向： 指向地球北极
+X 轴方向： 指向格林尼治子午面与地球赤道面之交点
+Y 轴方向： 垂直于XOZ平面，构成右手坐标系。
 
-在一定的条件下，偶然误差的绝对值不会超过一定的限度；
-
-
-离散性：
-
-
-绝对值小的误差比绝对值大的误差出现的机会多；
-
-
-对称性：
-
-
-绝对值相等的正负误差出现的机会相等；
-
-
-抵偿性：
-">
+空间直角坐标与大地坐标间的转换：
+卯酉圈：纬圈，N为卯酉圈的偏心率
+左右都有B，需要迭代求解——达到一定精度停止">
           
             <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload placeholder" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="/images/placeholder.svg">
           
@@ -2937,35 +3143,24 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
-        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zypnb.top/learn/servuy/delta/&title=测量误差 - Xiao Space&summary=概述误差来源
-测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。
-观测值与真值之差，称为真误差。  
-仪器原因
-观测人员的原因
-外界环境影响
-观测者、测量仪器和外界条件称为观测条件。
+        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://zypnb.top/learn/survey/axis/&title=不同的坐标表示及转换 - Xiao Space&summary=不同的坐标表示及转换
+此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）
+大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置
+基准是参考椭球面和法线，用大地经度L和大地纬度B表示
+P点大地经度L：过P点的大地子午面和首子午面所夹的两面角
+P点大地纬度B：过P点的法线与赤道面的夹角
+P点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）
 
-偶然误差特性
-有界性：
+空间直角坐标系：
 
+坐标原点 O：地球椭球体中心（与质心重合）
+Z 轴方向： 指向地球北极
+X 轴方向： 指向格林尼治子午面与地球赤道面之交点
+Y 轴方向： 垂直于XOZ平面，构成右手坐标系。
 
-在一定的条件下，偶然误差的绝对值不会超过一定的限度；
-
-
-离散性：
-
-
-绝对值小的误差比绝对值大的误差出现的机会多；
-
-
-对称性：
-
-
-绝对值相等的正负误差出现的机会相等；
-
-
-抵偿性：
-">
+空间直角坐标与大地坐标间的转换：
+卯酉圈：纬圈，N为卯酉圈的偏心率
+左右都有B，需要迭代求解——达到一定精度停止">
           
             <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload placeholder" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="/images/placeholder.svg">
           
@@ -2973,35 +3168,24 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
-        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zypnb.top/learn/servuy/delta/&title=测量误差 - Xiao Space&summary=概述误差来源
-测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。
-观测值与真值之差，称为真误差。  
-仪器原因
-观测人员的原因
-外界环境影响
-观测者、测量仪器和外界条件称为观测条件。
+        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" target="_blank" href="http://service.weibo.com/share/share.php?url=https://zypnb.top/learn/survey/axis/&title=不同的坐标表示及转换 - Xiao Space&summary=不同的坐标表示及转换
+此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）
+大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置
+基准是参考椭球面和法线，用大地经度L和大地纬度B表示
+P点大地经度L：过P点的大地子午面和首子午面所夹的两面角
+P点大地纬度B：过P点的法线与赤道面的夹角
+P点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）
 
-偶然误差特性
-有界性：
+空间直角坐标系：
 
+坐标原点 O：地球椭球体中心（与质心重合）
+Z 轴方向： 指向地球北极
+X 轴方向： 指向格林尼治子午面与地球赤道面之交点
+Y 轴方向： 垂直于XOZ平面，构成右手坐标系。
 
-在一定的条件下，偶然误差的绝对值不会超过一定的限度；
-
-
-离散性：
-
-
-绝对值小的误差比绝对值大的误差出现的机会多；
-
-
-对称性：
-
-
-绝对值相等的正负误差出现的机会相等；
-
-
-抵偿性：
-">
+空间直角坐标与大地坐标间的转换：
+卯酉圈：纬圈，N为卯酉圈的偏心率
+左右都有B，需要迭代求解——达到一定精度停止">
           
             <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload placeholder" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="/images/placeholder.svg">
           
@@ -3013,7 +3197,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="hoverbox">
           <a class="share"><img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/wechat.png" class="lazyload placeholder" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/wechat.png" srcset="/images/placeholder.svg"></a>
           <div class="target">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAAAAACi5bZQAAADA0lEQVR42u3aS27DMAwFwNz/0um+aGE9UjLMZLRzPrY03jyQfL2tP9cLARgwYMCAATMG5lVcv/+/6/pqX/99v+08YMCAAQMGDJhxMMsBqLjB9P9Xz78CLZ8HDBgwYMCAATMWJg10q8FsFWD14KswcUAFAwYMGDBgwHwNzOpBu59XvwcDBgwYMGDAgKk2yNLA1oUEAwYMGDBgwHwvTNqgWi0kpRuuNtIe04kEAwYMGDBgwNwGk640YN19XT4PGDBgwIABA2YMTHelDbjdA0rvzQsMGDBgwIABMwfmKiB1G2Pp73bfNz4nGDBgwIABA2YsTLdxVT1wWhhbvV/cCAQDBgwYMGDAjIPpbvyuwZ9dg0lxJxIMGDBgwIAB8ziY9IHVwlJaeDoVDONOJBgwYMCAAQPm8TDVglS18VUNhtWC1vILBwMGDBgwYMCMgdm9wWpg6xauqi8GDBgwYMCAATMXphro0oJWNfh1B5ji/4MBAwYMGDBgxsCkwW1Xg64azKoFrOUgCwYMGDBgwIAZC1MNTrsGiLqgq4BgwIABAwYMmM+DSYPRq7m6hbJqo+/fz8GAAQMGDBgwY2GqA0PdA1QHfnZ9DgYMGDBgwICZC1N9wOkglha44sLUVcADAwYMGDBgwDwWpjqgUw2EacOt+/sUHgwYMGDAgAEzB6ZaQDoVBHcVrsqDRWDAgAEDBgyYMTBpENpd2Fq9fzp4VN4nGDBgwIABA2YcTHUj3YDWbZilEHHDDQwYMGDAgAHzWJjdDbJqoehUAIz3AwYMGDBgwIAZA9NdtxWQQsB0YAgMGDBgwIABMw+mG5jSglM3uO1q7IEBAwYMGDBgPgcmDXTlAHW40NQGBwMGDBgwYMCMhekGum4haVcQTIMhGDBgwIABA+b7YFavVwta1RdQHXA6FvDAgAEDBgwYMGNgqgWvbiDrDiQdD3hgwIABAwYMmNtg0oZbep+7C11pwAQDBgwYMGDAzIM51cBKB49Wn9N93nLAAwMGDBgwYMA8FsYCAwYMGDBgwAxbPx8GY6wRT2w/AAAAAElFTkSuQmCC">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAAAAACi5bZQAAAC80lEQVR42u3aQXLcMAwEwP3/p5MPZIscAEoJdvMmr0iTrcsUwM8f45/jgwAMGDBgwIBZA/Mpjq8Lf/n92/z07+m89DxgwIABAwYMmH0w1wHosNHTcwp+PMjhOT0PGDBgwIABA2YvzNRGbtfpAlU/CBgwYMCAAQMGzG3gu12/GhzBgAEDBgwYMGC6Aaq6TlpoSgtmYMCAAQMGDJifDxM3qMKC01Th6fWdSDBgwIABAwbMf4NJx3Qh6enC1PV5wIABAwYMGDBrYLrjFOhuC1tTBaz2ecCAAQMGDBgwa2CqAem28DRdYJoKeGDAgAEDBgyY/TCn4FVtnKXz0/VuP1B6PjBgwIABAwbMPpipwlQV5Gmo6/fBgAEDBgwYMGtgygWd4cJS+iHS/1+u4IEBAwYMGDBgXguTbrgatKoBrwqcNgrBgAEDBgwYMPtgni44paMb8KrBDwwYMGDAgAGzF+apglE5aIUXf8Y+BBgwYMCAAQNmHcwtxO243VB60BS+3YkEAwYMGDBgwLweJt14dX4VsArebriBAQMGDBgwYF4LU73gM/17Fagb9MCAAQMGDBgwPwcmDVjdi0TVCz9pI+56/2DAgAEDBgyYNTBTAat70Wiq0NU+FxgwYMCAAQNmDczTASsNet3GWvXCEBgwYMCAAQNmH0wVpNoAqxaQqh/odh4YMGDAgAEDZj/M7fN0MEsvCN0+x++BAQMGDBgwYNbCpAs91UibLnCNJV8wYMCAAQMGzOthqoGtu24VqHrxCQwYMGDAgAGzF6Y7phtnVYBygw0MGDBgwIABsxZmKjBNAabvjTcMwYABAwYMGDDrYLoHnGrEPRXwrgtuYMCAAQMGDJi1MNXG2lRDLr1oVAUEAwYMGDBgwICpBr7pgNYNkmDAgAEDBgyY3wuTBrIUrAt+W5ADAwYMGDBgwOyFSRtu6ca6BajuBaUjMBgwYMCAAQNmHUy3cdVtpJUDWRgkj/PAgAEDBgwYMGtgDDBgwIABAwbMsvEXgItljrzHNgAAAAAASUVORK5CYII=">
           </div>
         </div>
       
@@ -3038,21 +3222,49 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class="prev-next">
       
-        <a class="prev" href="/faq/high_school/01/">
-          <p class="title"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>一道小题-#01 2020-07-24</p>
-          <p class="content">一道可能不太简单的解三角形题
-题目
-
-已知$a,b,c$分别为$\Delta ABC$的内角$A,B,C$对应的边，$BC$边上的高为$\displaystyle \frac{a}{2}$，求$...</p>
+        <a class="prev" href="/learn/survey/delta/">
+          <p class="title"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>测量误差</p>
+          <p class="content">概述误差来源
+测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。
+观测值与真值之差，称为真误差。  
+仪器原因
+观测人员的原因
+外界环境影响
+观测者、测量仪器和外...</p>
         </a>
       
       
-        <a class="next" href="/learn/servuy/axis/">
-          <p class="title">不同的坐标表示及转换<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class="content">不同的坐标表示及转换
-此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）
-大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置
-基准是参考椭球面和法线，用大地经度L和大地纬度B表示...</p>
+        <a class="next" href="/learn/mechanics_materials/energy/">
+          <p class="title">能量方法<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class="content">基本概念
+功与余功
+
+
+
+
+
+
+
+
+上述就是功的互等定理
+应变能与应变余能
+
+
+
+
+
+功与位移的互等定理
+功的互等定理
+
+
+
+例题1：捏土豆问题
+
+
+
+非常有意思的一个案例
+
+虚位移原理对刚体平...</p>
         </a>
       
     </div>
@@ -3068,7 +3280,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/learn/servuy/delta/index.html#comments">
+      <meta itemprop="discussionUrl" content="/learn/survey/axis/index.html#comments">
     </span>
     <p ct><i class="fa-solid fa-comments"></i> 评论</p>
     
@@ -3110,7 +3322,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class="content">
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-text">概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%AF%E5%B7%AE%E6%9D%A5%E6%BA%90"><span class="toc-text">误差来源</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%81%B6%E7%84%B6%E8%AF%AF%E5%B7%AE%E7%89%B9%E6%80%A7"><span class="toc-text">偶然误差特性</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A1%E9%87%8F%E7%B2%BE%E5%BA%A6%E7%9A%84%E6%A0%87%E5%87%86"><span class="toc-text">衡量精度的标准</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%AF%E5%B7%AE%E4%BC%A0%E6%92%AD%E5%AE%9A%E5%BE%8B"><span class="toc-text">误差传播定律</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AD%89%E7%B2%BE%E5%BA%A6%E8%A7%82%E6%B5%8B%E5%80%BC%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="toc-text">等精度观测值数据处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%90%8C%E7%B2%BE%E5%BA%A6%E8%A7%82%E6%B5%8B%E5%80%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86"><span class="toc-text">不同精度观测值的数据处理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%82%B9%E4%BD%8D%E8%AF%AF%E5%B7%AE%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">点位误差的概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BA%94%E7%94%A8%E4%B8%BE%E4%BE%8B"><span class="toc-text">应用举例</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E5%90%8C%E7%9A%84%E5%9D%90%E6%A0%87%E8%A1%A8%E7%A4%BA%E5%8F%8A%E8%BD%AC%E6%8D%A2"><span class="toc-text">不同的坐标表示及转换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A1%AE%E5%AE%9A%E5%9C%B0%E9%9D%A2%E7%82%B9%E7%9A%84%E5%9D%90%E6%A0%87"><span class="toc-text">确定地面点的坐标</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%B0%E9%9D%A2%E7%82%B9%E7%9A%84%E5%9D%90%E6%A0%87%E8%A1%A8%E7%A4%BA"><span class="toc-text">地面点的坐标表示</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A1%AE%E5%AE%9A%E5%9C%B0%E9%9D%A2%E7%82%B9%E5%9D%90%E6%A0%87%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">确定地面点坐标的基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%B9%E4%BD%8D%E8%A7%92"><span class="toc-text">方位角</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95"><span class="toc-text">常用方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8D%AB%E6%98%9F%E5%AE%9A%E4%BD%8D%E6%96%B9%E6%B3%95"><span class="toc-text">卫星定位方法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E9%87%8F%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%8E%9F%E5%88%99"><span class="toc-text">测量工作的原则</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E5%B0%8F%E5%9C%B0%E5%8C%BA%EF%BC%9F"><span class="toc-text">什么是小地区？</span></a></li></ol></li></ol>
     </div>
   </section>
 
@@ -3458,7 +3670,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659331365982"></script>
+<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659514747153"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3681,19 +3893,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659331365982")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659514747153")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659331365982")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659514747153")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659331365982")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659514747153")
       }
     
   };
@@ -3789,7 +4001,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     await volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/meting/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659331365982')
+    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659514747153')
   
   })();
 
@@ -3921,7 +4133,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659331365982");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659514747153");
   }
 
   function loadSearchService() {
@@ -3994,7 +4206,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
   const LCCounter = {
     app_id: 'gNbVHd0VLQeTQP6OEHYGpPjU-MdYXbMMI',
     app_key: 's8VPrAW8tSJKLEHc11gxmamp',
-    custom_api_server: '',
+    custom_api_server: 'https://api.zypnb.top',
 
     // 查询存储的记录
     getRecord(Counter, url, title) {
@@ -4176,7 +4388,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     },
 
     refreshCounter() {
-      var api_server = this.app_id.slice(-9) !== '-MdYXbMMI' ? this.custom_api_server : `https://${ this.app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+      var api_server = this.custom_api_server;
       if (api_server) {
         this.fetchData(api_server);
       } else {
@@ -4271,6 +4483,60 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 
 <!-- pjax 标签必须存在于所有页面 否则 pjax error -->
 <pjax>
+
+        <script>
+  // https://github.com/theme-next/hexo-theme-next/blob/master/layout/_third-party/math/mathjax.swig
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = "https://unpkg.com/volantis-static@0.0.1654736714924/libs/mathjax/es5/tex-mml-chtml.js";
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    // 文章章节标题不能为 “MathJax” ，否则会报错。
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typesetPromise();
+  }
+</script>
+
+
 
 </pjax>
 
@@ -4491,7 +4757,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/","name":"学习"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/测量学/","name":"测量学"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/learn/servuy/delta/","name":"测量误差"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"测量误差","description":"概述误差来源\n测量中的被观测量，客观上都存在着一个真实值， 简称真值。对该量进行观测得到观测值。\n观测值与真值之差，称为真误差。  \n仪器原因\n观测人员的原因\n外界环境影响\n观测者、测量仪器和外界条件称为观测条件。\n\n偶然误差特性\n有界性：\n\n\n在一定的条件下，偶然误差的绝对值不会超过一定的限度；\n\n\n离散性：\n\n\n绝对值小的误差比绝对值大的误差出现的机会多；\n\n\n对称性：\n\n\n绝对值相等的正负误差出现的机会相等；\n\n\n抵偿性：\n","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/learn/servuy/delta/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/learn/servuy/delta/","wordCount":217,"datePublished":"2020-05-22T06:43:57.000Z","dateModified":"2022-07-30T16:03:00.051Z","articleSection":"学习","keywords":"误差","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/","name":"学习"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/测量学/","name":"测量学"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/learn/survey/axis/","name":"不同的坐标表示及转换"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"不同的坐标表示及转换","description":"不同的坐标表示及转换\n此处的大地坐标系与上文不同，上文所指与天文坐标系相对（一簇）\n大地地理坐标又称大地坐标，表示地面点在参考椭球面上的位置\n基准是参考椭球面和法线，用大地经度L和大地纬度B表示\nP点大地经度L：过P点的大地子午面和首子午面所夹的两面角\nP点大地纬度B：过P点的法线与赤道面的夹角\nP点大地高H ：P点沿法线到参考椭球面的距离（注意与海拔的区别）\n\n空间直角坐标系：\n\n坐标原点 O：地球椭球体中心（与质心重合）\nZ 轴方向： 指向地球北极\nX 轴方向： 指向格林尼治子午面与地球赤道面之交点\nY 轴方向： 垂直于XOZ平面，构成右手坐标系。\n\n空间直角坐标与大地坐标间的转换：\n卯酉圈：纬圈，N为卯酉圈的偏心率\n左右都有B，需要迭代求解——达到一定精度停止","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/learn/survey/axis/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/learn/survey/axis/","wordCount":337,"datePublished":"2020-05-22T05:32:02.000Z","dateModified":"2022-08-03T08:08:04.651Z","articleSection":"学习","keywords":"坐标换算","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
