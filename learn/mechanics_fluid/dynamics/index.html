@@ -51,7 +51,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2020-03-26T03:10:44.000Z">
-<meta property="article:modified_time" content="2022-08-03T06:16:47.263Z">
+<meta property="article:modified_time" content="2022-08-04T07:22:39.586Z">
 <meta property="article:author" content="MPCB_Bishop">
 <meta property="article:tag" content="动力学">
 <meta name="twitter:card" content="summary">
@@ -868,8 +868,8 @@ button {
     --color-site-footer: rgba(170,170,170,0.871);
     --color-card: #262626;
     --color-text: rgba(238,238,238,0.871);
-    --color-block: #434343;
-    --color-codeblock: #1f1f1f;
+    --color-block: #1a1a1a;
+    --color-codeblock: #121212;
     --color-inlinecode: #d56d28;
     --color-h1: rgba(255,255,255,0.871);
     --color-h2: rgba(255,255,255,0.871);
@@ -940,8 +940,8 @@ button {
   --color-site-footer: rgba(170,170,170,0.871);
   --color-card: #262626;
   --color-text: rgba(238,238,238,0.871);
-  --color-block: #434343;
-  --color-codeblock: #1f1f1f;
+  --color-block: #1a1a1a;
+  --color-codeblock: #121212;
   --color-inlinecode: #d56d28;
   --color-h1: rgba(255,255,255,0.871);
   --color-h2: rgba(255,255,255,0.871);
@@ -1929,9 +1929,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659514747153","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659514747153","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659514747153","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659514747153","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659514747153","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659514747153","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659514747153"},"css":{"style":"/css/style.bd98272b.css"}},
+    cdn: {"js":{"app":"/js/app.af2d54c8.js","parallax":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/parallax.js?time=1659617945113","rightMenu":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenu.js?time=1659617945113","rightMenus":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659617945113","sites":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659617945113","friends":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659617945113","contributors":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659617945113","search":"https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659617945113"},"css":{"style":"/css/style.bd98272b.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1659514747153),
+    lastupdate: new Date(1659617945113),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo","lastupdate"],
       for_post: ["toc"],
@@ -2794,7 +2794,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li><strong>边界条件是指运动方程的解在流场的边界上必须满足的运动学和动力学条件。常见的边界条件有：固壁条件和液体的自由表面条件。</strong></li>
 </ul>
 </li>
-<li>与t相关的条件——初始条件<ul>
+<li>与 t 相关的条件——初始条件<ul>
 <li><strong>初始条件是对非恒定流动指定初始时刻流场的速度和压强分布。</strong></li>
 </ul>
 </li>
@@ -2807,13 +2807,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319105057426.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319105057426.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 <p>液体的自由表面动力学条件为自由表面上压强为常数（大气压）。 </p>
-<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><p><u><strong>流动1</strong></u>：匀速平板带动的流体流动</p>
+<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><p><u><strong>流动 1</strong></u>：匀速平板带动的流体流动</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319105940788.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319105940788.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 <ul>
 <li>在某种情况下——我们可以得到牛顿内摩擦定律得到的流动分布</li>
 </ul>
-<p><u><strong>流动2</strong></u>：圆管层流</p>
+<p><u><strong>流动 2</strong></u>：圆管层流</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319110421634.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319110421634.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 </div><div class="story post-story"><h2 id="理想流体恒定元流的能量方程"><a href="#理想流体恒定元流的能量方程" class="headerlink" title="理想流体恒定元流的能量方程"></a>理想流体恒定元流的能量方程</h2><ul>
@@ -2834,7 +2834,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319112532531.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319112532531.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 <ul>
-<li><strong>值是一个常数。其中W是质量力势函数，r是不可压缩流体的密度。从推导过程看，积分是在流线上进行的，所以不同的流线可以有各自的积分常数，将它记作 C<del>1</del> ，称为流线常数。当流动为无旋流动时，流线常数均相等。</strong></li>
+<li><strong>值是一个常数。其中 W 是质量力势函数，r 是不可压缩流体的密度。从推导过程看，积分是在流线上进行的，所以不同的流线可以有各自的积分常数，将它记作 C<del>1</del> ，称为流线常数。当流动为无旋流动时，流线常数均相等。</strong></li>
 <li>伯努利积分是在一定条件下对理想流体运动方程（欧拉方程）沿流线的积分。</li>
 <li>注意条件：<ul>
 <li><strong>理想流体；</strong></li>
@@ -2897,7 +2897,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <li>不同的毕托管不同</li>
 </ul>
 </div><div class="story post-story"><h2 id="恒定总流的能量方程"><a href="#恒定总流的能量方程" class="headerlink" title="恒定总流的能量方程"></a>恒定总流的能量方程</h2><h3 id="理想流体恒定总流的能量方程"><a href="#理想流体恒定总流的能量方程" class="headerlink" title="理想流体恒定总流的能量方程"></a>理想流体恒定总流的能量方程</h3><ul>
-<li>在总流中，选取两个渐变流断面1、2。因为总流可以看作无数个元流的总和，因此，总流能量方程可以由元流能量方程在两断面范围内积分来得到。</li>
+<li>在总流中，选取两个渐变流断面 1、2。因为总流可以看作无数个元流的总和，因此，总流能量方程可以由元流能量方程在两断面范围内积分来得到。</li>
 <li>渐变流当作均匀流来考虑</li>
 </ul>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319115844569.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319115844569.png" srcset="/images/placeholder.svg" alt="image"></div></div>
@@ -2909,7 +2909,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </ul>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319120139174.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200319120139174.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
-<h3 id="实际流体恒定总流的能量方程"><a href="#实际流体恒定总流的能量方程" class="headerlink" title="实际流体恒定总流的能量方程"></a>实际流体恒定总流的能量方程</h3><p><strong>断面 A1 是上游断面，断面A2 是下游断面，hw1-2为总流在断面A1和A2之间平均每单位重量流体所损耗的机械能，称为水头损失。水头损失分为沿程水头损失和局部水头损失，如何确定，将在后面叙述。</strong></p>
+<h3 id="实际流体恒定总流的能量方程"><a href="#实际流体恒定总流的能量方程" class="headerlink" title="实际流体恒定总流的能量方程"></a>实际流体恒定总流的能量方程</h3><p><strong>断面 A1 是上游断面，断面 A2 是下游断面，hw1-2 为总流在断面 A1 和 A2 之间平均每单位重量流体所损耗的机械能，称为水头损失。水头损失分为沿程水头损失和局部水头损失，如何确定，将在后面叙述。</strong></p>
 <ul>
 <li><strong>流动必须是恒定流，并且流体是不可压缩的。</strong></li>
 <li><strong>（2）作用于流体上的质量力只有重力。</strong></li>
@@ -2925,7 +2925,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <h3 id="应用-1"><a href="#应用-1" class="headerlink" title="应用"></a>应用</h3><ul>
 <li>文透里管</li>
 </ul>
-<h4 id="文透里管测流量"><a href="#文透里管测流量" class="headerlink" title="文透里管测流量"></a>文透里管测流量</h4><p>文透里管是一种常用的量测管道流量的装置，它包括收缩段、喉道和扩散段三部分，安装在需要测定流量的管道上。在收缩段进口断面1-1 和喉道断面 2-2上接测压管，通过量测两个断面的测压管水头差，就可计算管道的理论流量 <em>Q</em> ，再经修正得到实际流量。</p>
+<h4 id="文透里管测流量"><a href="#文透里管测流量" class="headerlink" title="文透里管测流量"></a>文透里管测流量</h4><p>文透里管是一种常用的量测管道流量的装置，它包括收缩段、喉道和扩散段三部分，安装在需要测定流量的管道上。在收缩段进口断面 1-1 和喉道断面 2-2 上接测压管，通过量测两个断面的测压管水头差，就可计算管道的理论流量 <em>Q</em> ，再经修正得到实际流量。</p>
 <div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200326103850507.png" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200326103850507.png" srcset="/images/placeholder.svg" alt="image"></div></div>
 
 <ul>
@@ -3004,7 +3004,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
               <div class="license-meta-item">
                 <div class="license-meta-title">更新于</div>
-                <div class="license-meta-text">2022年8月3日</div>
+                <div class="license-meta-text">2022年8月4日</div>
               </div>
               
               
@@ -3029,10 +3029,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class="new-meta-box">
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-08-03T14:16:47+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-08-04T15:22:39+08:00">
   <a class="notlink">
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2022年8月3日</p>
+    <p>更新于：2022年8月4日</p>
   </a>
 </div>
 
@@ -3555,7 +3555,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   </ul>
 </div>
-<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659514747153"></script>
+<script src="https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/rightMenus.js?time=1659617945113"></script>
 <script>
   const RightMenusFunction = {};
   
@@ -3778,19 +3778,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     
       const sites_api = document.getElementById('sites-api');
       if (sites_api != undefined && typeof SitesJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659514747153")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/sites.js?time=1659617945113")
       }
     
     
       const friends_api = document.getElementById('friends-api');
       if (friends_api != undefined && typeof FriendsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659514747153")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/friends.js?time=1659617945113")
       }
     
     
       const contributors_api = document.getElementById('contributors-api');
       if (contributors_api != undefined && typeof ContributorsJS === 'undefined') {
-        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659514747153")
+        volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/tags/contributors.js?time=1659617945113")
       }
     
   };
@@ -3886,7 +3886,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
     await volantis.js("https://unpkg.com/volantis-static@0.0.1654736714924/libs/meting/dist/Meting.min.js")
   
     // 右键 music 需要在 APlayer  MetingJS 之后加载
-    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659514747153')
+    await volantis.js('https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/plugins/aplayer.js?time=1659617945113')
   
   })();
 
@@ -4018,7 +4018,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
   function loadSearchScript() {
     // see: layout/_partial/scripts/_ctrl/cdnCtrl.ejs
-    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659514747153");
+    return volantis.js("https://unpkg.com/hexo-theme-volantis@5.7.1/source/js/search/hexo.js?time=1659617945113");
   }
 
   function loadSearchService() {
@@ -4642,7 +4642,7 @@ volantis.pjax.push(()=>{_hmt.push(['_trackPageview', document.location.pathname]
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/","name":"学习"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/流体力学/","name":"流体力学"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/learn/mechanics_fluid/dynamics/","name":"流体动力学基础"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"流体动力学基础","description":"运动流体的应力状态动压强与静压强\n\n\n质量力比表面力搞一个小量——先趋于零\n因而可以证明$p_n&#x3D;p_y$\n\n","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/learn/mechanics_fluid/dynamics/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/learn/mechanics_fluid/dynamics/","wordCount":60,"datePublished":"2020-03-26T03:10:44.000Z","dateModified":"2022-08-03T06:16:47.263Z","articleSection":"学习","keywords":"动力学","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","sameAs":["https://github.com/volantis-x"],"description":"小说，生活点滴，技术档案，这里有许多许多……"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://zypnb.top/","name":"Xiao Space"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/","name":"学习"}},{"@type":"ListItem","position":2,"item":{"@id":"https://zypnb.top/categories/学习/流体力学/","name":"流体力学"}},{"@type":"ListItem","position":3,"item":{"@id":"https://zypnb.top/learn/mechanics_fluid/dynamics/","name":"流体动力学基础"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Xiao Space","url":"https://zypnb.top/","keywords":"Xiao Space, mpcbishop, MPCB_Bishop, Xiao xiao","description":"小说，生活点滴，技术档案，这里有许多许多……","author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/","description":"小说，生活点滴，技术档案，这里有许多许多……"},"publisher":{"@type":"Organization","name":"Xiao Space","url":"https://zypnb.top/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://zypnb.top?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"流体动力学基础","description":"运动流体的应力状态动压强与静压强\n\n\n质量力比表面力搞一个小量——先趋于零\n因而可以证明$p_n&#x3D;p_y$\n\n","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://zypnb.top/learn/mechanics_fluid/dynamics/"},"author":{"@type":"Person","name":"MPCB_Bishop","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://zypnb.top/"},"publisher":{"@type":"Organization","name":"Xiao Space","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://zypnb.top/learn/mechanics_fluid/dynamics/","wordCount":60,"datePublished":"2020-03-26T03:10:44.000Z","dateModified":"2022-08-04T07:22:39.586Z","articleSection":"学习","keywords":"动力学","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
