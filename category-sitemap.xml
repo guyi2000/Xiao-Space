@@ -10,14 +10,14 @@
 
     <url>
         <loc>https://zypnb.top/categories/%25E6%258A%2580%25E6%259C%25AF/Python/</loc>
-        <lastmod>2022-08-09T08:09:04.063Z</lastmod>
+        <lastmod>2022-08-09T08:14:52.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://zypnb.top/categories/%25E6%258A%2580%25E6%259C%25AF/</loc>
-        <lastmod>2022-08-09T08:09:04.063Z</lastmod>
+        <lastmod>2022-08-09T08:14:52.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -44,13 +44,6 @@
     </url>
 
     <url>
-        <loc>https://zypnb.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0/%25E5%25B7%25A5%25E7%25A8%258B%25E9%25A1%25B9%25E7%259B%25AE%25E7%25AE%25A1%25E7%2590%2586/</loc>
-        <lastmod>2022-08-09T03:42:22.371Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://zypnb.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0/%25E6%25B5%258B%25E9%2587%258F%25E5%25AD%25A6/</loc>
         <lastmod>2022-08-09T03:42:22.371Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -59,6 +52,13 @@
 
     <url>
         <loc>https://zypnb.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0/%25E5%2585%259A%25E8%25AF%25BE/</loc>
+        <lastmod>2022-08-09T03:42:22.371Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://zypnb.top/categories/%25E5%25AD%25A6%25E4%25B9%25A0/%25E5%25B7%25A5%25E7%25A8%258B%25E9%25A1%25B9%25E7%259B%25AE%25E7%25AE%25A1%25E7%2590%2586/</loc>
         <lastmod>2022-08-09T03:42:22.371Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
