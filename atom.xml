@@ -35,11 +35,11 @@
     <category term="环境搭建" scheme="https://zypnb.top/categories/%E6%8A%80%E6%9C%AF/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Python" scheme="https://zypnb.top/tags/Python/"/>
-    
     <category term="Linux" scheme="https://zypnb.top/tags/Linux/"/>
     
     <category term="环境配置" scheme="https://zypnb.top/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="Python" scheme="https://zypnb.top/tags/Python/"/>
     
   </entry>
   
@@ -147,9 +147,9 @@
     <category term="Python" scheme="https://zypnb.top/categories/%E6%8A%80%E6%9C%AF/Python/"/>
     
     
-    <category term="Python" scheme="https://zypnb.top/tags/Python/"/>
-    
     <category term="环境配置" scheme="https://zypnb.top/tags/%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="Python" scheme="https://zypnb.top/tags/Python/"/>
     
   </entry>
   
@@ -227,11 +227,11 @@
     
     <category term="三角" scheme="https://zypnb.top/tags/%E4%B8%89%E8%A7%92/"/>
     
-    <category term="基本不等式" scheme="https://zypnb.top/tags/%E5%9F%BA%E6%9C%AC%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
-    
     <category term="柯西不等式" scheme="https://zypnb.top/tags/%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
     
     <category term="积化和差" scheme="https://zypnb.top/tags/%E7%A7%AF%E5%8C%96%E5%92%8C%E5%B7%AE/"/>
+    
+    <category term="基本不等式" scheme="https://zypnb.top/tags/%E5%9F%BA%E6%9C%AC%E4%B8%8D%E7%AD%89%E5%BC%8F/"/>
     
   </entry>
   
