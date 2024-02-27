@@ -22,11 +22,11 @@
       
         <tags>
             
+            <tag> Python </tag>
+            
             <tag> Linux </tag>
             
             <tag> 环境配置 </tag>
-            
-            <tag> Python </tag>
             
         </tags>
       
@@ -142,9 +142,9 @@
       
         <tags>
             
-            <tag> 环境配置 </tag>
-            
             <tag> Python </tag>
+            
+            <tag> 环境配置 </tag>
             
         </tags>
       
@@ -227,11 +227,11 @@
             
             <tag> 三角 </tag>
             
+            <tag> 基本不等式 </tag>
+            
             <tag> 柯西不等式 </tag>
             
             <tag> 积化和差 </tag>
-            
-            <tag> 基本不等式 </tag>
             
         </tags>
       
@@ -1518,33 +1518,6 @@
     
     <entry>
       <title>绪论</title>
-      <link href="/learn/mechanics_materials/it/"/>
-      <url>/learn/mechanics_materials/it/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="story post-story"><h2 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h2><ul><li>关键词</li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218134508601.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218134508601.png" srcset="/images/placeholder.svg" alt="image"/></div></div><span id="more"></span><p>沙发——垫子内——弹簧，如何设计？</p><ul><li><p>压弹簧——<strong>弯曲</strong>和<strong>扭转</strong></p></li><li><p>太软——刚度失效（人为定义失效模式）</p></li><li><p>断裂——强度失效（什么样的材料，什么样的结构——产生一个确定的特定的力，客观的失效模式）</p></li><li><p>构型跳变——稳定性失效，失稳</p></li><li><p>如何解决？</p></li><li><p><strong>材料</strong>与<strong>结构</strong></p></li></ul><h3 id="设计：刚度"><a href="#设计：刚度" class="headerlink" title="设计：刚度"></a>设计：刚度</h3><p>胡克定律：$F&#x3D;K\Delta L$</p><p>弹簧串联，并联？K 的变化</p><p>E——杨氏模量</p><p>力学响应 &#x3D; 材料+结构</p><p>$$<br>F&#x3D;\frac{EW\Delta L}{L}&#x3D;\frac{E\Delta L}{L}W<br>$$</p><p>$$<br>\frac{F}{W}&#x3D;\frac{E\Delta L}{L}<br>$$</p><p>分成材料的部分和结构的部分</p><p>$\frac{F}{W}$——力的集度，E 材料的参数，变形</p><ul><li><p>拉伸压缩</p></li><li><p>剪切</p></li><li><p>扭转</p></li><li><p>弯曲</p></li></ul></div><div class="story post-story"><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><h3 id="力学的基本概念"><a href="#力学的基本概念" class="headerlink" title="力学的基本概念"></a>力学的基本概念</h3><ul><li><p>什么是力？</p></li><li><p>什么是力学？</p></li><li><p>例举力学中的基本概念……</p><ul><li><p>力学的开始：力、运动、材料强度</p></li><li><p>力的定义：Newton 定律，一二三大定律。</p><ul><li><p>内力方向的定义与外力方向的定义不同！</p></li><li><p>内力方向定义与物体变形趋势建立关系</p></li><li><p>外力方向定义与物体运动趋势建立关系</p></li><li><p>各定律互相独立，且其内在逻辑符合自洽一致性（整体平衡-&gt;局部平衡）</p></li><li><p>只适用于惯性参考系，宏观问题和低速问题</p></li></ul></li><li><p>力的作用效果</p><ul><li>力使得物体(1)运动(2)变形</li><li>运动和变形的数学描述</li><li>运动：</li><li>质点：位置、速度</li><li>刚体：角速度</li><li>变形：（连续体）</li><li>使用场描述（矢量场，张量场）</li><li>矢量对矢量的导数-&gt;张量（使用矩阵来描述相对变形）</li></ul></li></ul></li><li><p>什么是工程力学&#x2F;材料力学</p><ul><li>应用力学的研究范畴</li></ul></li></ul><blockquote><p><strong>Applied mechanics</strong> (also <strong>engineering mechanics</strong>) is a branch of the <a href="https://en.wikipedia.org/wiki/Physical_science">physical sciences</a> and the practical application of <a href="https://en.wikipedia.org/wiki/Mechanics">mechanics</a>. Pure mechanics describes the <em>response of bodies (solids and fluids) or systems of bodies to external <a href="https://en.wikipedia.org/wiki/Force">forces</a></em>. Some examples of <em>mechanical systems</em> include the flow of a <a href="https://en.wikipedia.org/wiki/Liquid">liquid</a> under <a href="https://en.wikipedia.org/wiki/Pressure">pressure</a>, the fracture of a <a href="https://en.wikipedia.org/wiki/Solid">solid</a> from an applied force, or the vibration of an ear in response to <a href="https://en.wikipedia.org/wiki/Sound">sound</a>. A practitioner of the discipline is known as a <strong><a href="https://en.wikipedia.org/wiki/Mechanician">mechanician</a></strong>.</p><p>Applied mechanics describes the behavior of a body, in either a beginning state of rest or of motion, subjected to the action of forces.[<a href="https://en.wikipedia.org/wiki/Applied_mechanics#cite_note-1">1]</a> Applied mechanics, bridges the gap between physical theory and its application to <a href="https://en.wikipedia.org/wiki/Technology">technology</a>. It is used in many fields of <a href="https://en.wikipedia.org/wiki/Engineering">engineering</a>, especially <a href="https://en.wikipedia.org/wiki/Mechanical_engineering">mechanical engineering</a> and <a href="https://en.wikipedia.org/wiki/Civil_engineering">civil engineering</a>. In this context, it is commonly referred to as <strong>Engineering Mechanics</strong>. Much of modern engineering mechanics is based on <a href="https://en.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a>‘s <a href="https://en.wikipedia.org/wiki/Newton's_laws_of_motion">laws of motion</a> while the modern practice of their application can be traced back to <a href="https://en.wikipedia.org/wiki/Stephen_Timoshenko">Stephen Timoshenko</a>, who is said to be the father of modern engineering mechanics.</p><p><em>——From Wiki</em></p></blockquote><h3 id="工程力学总论"><a href="#工程力学总论" class="headerlink" title="工程力学总论"></a>工程力学总论</h3><h4 id="工程力学在工程设计中的作用"><a href="#工程力学在工程设计中的作用" class="headerlink" title="工程力学在工程设计中的作用"></a>工程力学在工程设计中的作用</h4><ul><li>结构设计：结构与功用</li></ul><p>设计条件：</p><ul><li>材料选择</li><li>结构设计</li><li>建造工程</li><li>费用</li><li>政府决策</li><li>其他</li></ul><p>举例：</p><ul><li><p>一张纸如何承受住自身的重力？</p></li><li><p>一座桥如何承受自己的重力？</p></li><li><p>央视大楼</p></li><li><p>摩天大楼风荷载稳定性</p></li><li><p>应变工程技术在微电子器件中的作用</p></li><li><p>石墨烯和碳材料</p></li><li><p>压痕技术——石墨烯等效压痕刚度——内禀拉伸刚度——利用悬臂梁在端部收到变形和载荷之间的关系</p></li><li><p>简单的蜘蛛丝</p></li><li><p>肌肉</p></li></ul></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 材料力学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 简介 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>绪论</title>
       <link href="/learn/survey/intro/"/>
       <url>/learn/survey/intro/</url>
       
@@ -1563,6 +1536,33 @@
         <tags>
             
             <tag> 绪论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>绪论</title>
+      <link href="/learn/mechanics_materials/it/"/>
+      <url>/learn/mechanics_materials/it/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="story post-story"><h2 id="课程介绍"><a href="#课程介绍" class="headerlink" title="课程介绍"></a>课程介绍</h2><ul><li>关键词</li></ul><div class="img-wrap"><div class="img-bg"><img class="img lazyload placeholder" src="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218134508601.png" class="lazyload placeholder" data-srcset="https://xiaospace.oss-cn-beijing.aliyuncs.com/img/image-20200218134508601.png" srcset="/images/placeholder.svg" alt="image"/></div></div><span id="more"></span><p>沙发——垫子内——弹簧，如何设计？</p><ul><li><p>压弹簧——<strong>弯曲</strong>和<strong>扭转</strong></p></li><li><p>太软——刚度失效（人为定义失效模式）</p></li><li><p>断裂——强度失效（什么样的材料，什么样的结构——产生一个确定的特定的力，客观的失效模式）</p></li><li><p>构型跳变——稳定性失效，失稳</p></li><li><p>如何解决？</p></li><li><p><strong>材料</strong>与<strong>结构</strong></p></li></ul><h3 id="设计：刚度"><a href="#设计：刚度" class="headerlink" title="设计：刚度"></a>设计：刚度</h3><p>胡克定律：$F&#x3D;K\Delta L$</p><p>弹簧串联，并联？K 的变化</p><p>E——杨氏模量</p><p>力学响应 &#x3D; 材料+结构</p><p>$$<br>F&#x3D;\frac{EW\Delta L}{L}&#x3D;\frac{E\Delta L}{L}W<br>$$</p><p>$$<br>\frac{F}{W}&#x3D;\frac{E\Delta L}{L}<br>$$</p><p>分成材料的部分和结构的部分</p><p>$\frac{F}{W}$——力的集度，E 材料的参数，变形</p><ul><li><p>拉伸压缩</p></li><li><p>剪切</p></li><li><p>扭转</p></li><li><p>弯曲</p></li></ul></div><div class="story post-story"><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><h3 id="力学的基本概念"><a href="#力学的基本概念" class="headerlink" title="力学的基本概念"></a>力学的基本概念</h3><ul><li><p>什么是力？</p></li><li><p>什么是力学？</p></li><li><p>例举力学中的基本概念……</p><ul><li><p>力学的开始：力、运动、材料强度</p></li><li><p>力的定义：Newton 定律，一二三大定律。</p><ul><li><p>内力方向的定义与外力方向的定义不同！</p></li><li><p>内力方向定义与物体变形趋势建立关系</p></li><li><p>外力方向定义与物体运动趋势建立关系</p></li><li><p>各定律互相独立，且其内在逻辑符合自洽一致性（整体平衡-&gt;局部平衡）</p></li><li><p>只适用于惯性参考系，宏观问题和低速问题</p></li></ul></li><li><p>力的作用效果</p><ul><li>力使得物体(1)运动(2)变形</li><li>运动和变形的数学描述</li><li>运动：</li><li>质点：位置、速度</li><li>刚体：角速度</li><li>变形：（连续体）</li><li>使用场描述（矢量场，张量场）</li><li>矢量对矢量的导数-&gt;张量（使用矩阵来描述相对变形）</li></ul></li></ul></li><li><p>什么是工程力学&#x2F;材料力学</p><ul><li>应用力学的研究范畴</li></ul></li></ul><blockquote><p><strong>Applied mechanics</strong> (also <strong>engineering mechanics</strong>) is a branch of the <a href="https://en.wikipedia.org/wiki/Physical_science">physical sciences</a> and the practical application of <a href="https://en.wikipedia.org/wiki/Mechanics">mechanics</a>. Pure mechanics describes the <em>response of bodies (solids and fluids) or systems of bodies to external <a href="https://en.wikipedia.org/wiki/Force">forces</a></em>. Some examples of <em>mechanical systems</em> include the flow of a <a href="https://en.wikipedia.org/wiki/Liquid">liquid</a> under <a href="https://en.wikipedia.org/wiki/Pressure">pressure</a>, the fracture of a <a href="https://en.wikipedia.org/wiki/Solid">solid</a> from an applied force, or the vibration of an ear in response to <a href="https://en.wikipedia.org/wiki/Sound">sound</a>. A practitioner of the discipline is known as a <strong><a href="https://en.wikipedia.org/wiki/Mechanician">mechanician</a></strong>.</p><p>Applied mechanics describes the behavior of a body, in either a beginning state of rest or of motion, subjected to the action of forces.[<a href="https://en.wikipedia.org/wiki/Applied_mechanics#cite_note-1">1]</a> Applied mechanics, bridges the gap between physical theory and its application to <a href="https://en.wikipedia.org/wiki/Technology">technology</a>. It is used in many fields of <a href="https://en.wikipedia.org/wiki/Engineering">engineering</a>, especially <a href="https://en.wikipedia.org/wiki/Mechanical_engineering">mechanical engineering</a> and <a href="https://en.wikipedia.org/wiki/Civil_engineering">civil engineering</a>. In this context, it is commonly referred to as <strong>Engineering Mechanics</strong>. Much of modern engineering mechanics is based on <a href="https://en.wikipedia.org/wiki/Isaac_Newton">Isaac Newton</a>‘s <a href="https://en.wikipedia.org/wiki/Newton's_laws_of_motion">laws of motion</a> while the modern practice of their application can be traced back to <a href="https://en.wikipedia.org/wiki/Stephen_Timoshenko">Stephen Timoshenko</a>, who is said to be the father of modern engineering mechanics.</p><p><em>——From Wiki</em></p></blockquote><h3 id="工程力学总论"><a href="#工程力学总论" class="headerlink" title="工程力学总论"></a>工程力学总论</h3><h4 id="工程力学在工程设计中的作用"><a href="#工程力学在工程设计中的作用" class="headerlink" title="工程力学在工程设计中的作用"></a>工程力学在工程设计中的作用</h4><ul><li>结构设计：结构与功用</li></ul><p>设计条件：</p><ul><li>材料选择</li><li>结构设计</li><li>建造工程</li><li>费用</li><li>政府决策</li><li>其他</li></ul><p>举例：</p><ul><li><p>一张纸如何承受住自身的重力？</p></li><li><p>一座桥如何承受自己的重力？</p></li><li><p>央视大楼</p></li><li><p>摩天大楼风荷载稳定性</p></li><li><p>应变工程技术在微电子器件中的作用</p></li><li><p>石墨烯和碳材料</p></li><li><p>压痕技术——石墨烯等效压痕刚度——内禀拉伸刚度——利用悬臂梁在端部收到变形和载荷之间的关系</p></li><li><p>简单的蜘蛛丝</p></li><li><p>肌肉</p></li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 材料力学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 简介 </tag>
             
         </tags>
       
@@ -1760,33 +1760,6 @@
     
     
     <entry>
-      <title>讲规矩 知方圆</title>
-      <link href="/learn/ccp/constitution_regulation/"/>
-      <url>/learn/ccp/constitution_regulation/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>——学习《党章》和《关于新形势下党内政治生活的若干准则》</p><div class="story post-story"><h2 id="中国共产党章程"><a href="#中国共产党章程" class="headerlink" title="中国共产党章程"></a>中国共产党章程</h2><h3 id="地位"><a href="#地位" class="headerlink" title="地位"></a>地位</h3><p>党的全国代表大会通过，属<strong>最高</strong>地位</p><p>党章于党类似宪法于国家</p><blockquote><p>党章是党的总章程，集中体现了党的性质和宗旨……</p><p>——习近平</p></blockquote><span id="more"></span><h3 id="结构与内容结构"><a href="#结构与内容结构" class="headerlink" title="结构与内容结构"></a>结构与内容结构</h3><p>党章分 <code>纲领(变化的)</code> 和 <code>章程(不变的)</code> 两个部分</p><h4 id="总纲"><a href="#总纲" class="headerlink" title="总纲"></a>总纲</h4><p>总纲部分规定了党的纲领</p><ul><li>中国共产党的性质和奋斗目标</li><li>中国共产党的指导思想</li><li>党的基本路线和基本纲领</li><li>党领导各项建设的基本原则和政策</li><li>党的建设的基本要求</li></ul><h4 id="章程"><a href="#章程" class="headerlink" title="章程"></a>章程</h4><p>共 <code>11</code> 个章节</p><ul><li>党员</li><li>党的组织制度</li><li>党的中央组织</li><li>党的地方组织</li><li>党的基层组织</li><li>党的干部</li><li>党的纪律 <code>纪律处分条例</code></li><li>党的纪律检查机关</li><li>党组</li><li>党和共产主义青年团的关系</li><li>党徽党旗</li></ul><p>注意与<strong>条例</strong>的结合</p><h3 id="修订"><a href="#修订" class="headerlink" title="修订"></a>修订</h3><h4 id="党代会基本流程"><a href="#党代会基本流程" class="headerlink" title="党代会基本流程"></a>党代会基本流程</h4><ol><li>听取中央委员会报告</li><li>修改党章</li><li>选举中央委员会</li><li>选举中央纪律委员会</li></ol></div><div class="story post-story"><h2 id="新形势下党内政治生活的若干准则"><a href="#新形势下党内政治生活的若干准则" class="headerlink" title="新形势下党内政治生活的若干准则"></a>新形势下党内政治生活的若干准则</h2><h3 id="为什么要制定《准则》"><a href="#为什么要制定《准则》" class="headerlink" title="为什么要制定《准则》"></a>为什么要制定《准则》</h3><blockquote><p>任何政党都有政治属性，都有自己的政治革命、政治目标、政治追求。……如果马克思主义政党政治上的先进性丧失了，党的先进性和纯洁性就无从谈起。</p><p>——习近平</p></blockquote><p>苏区时期——王明政府——反例</p><p>延安时期——整风</p><p>政治生活的健康事关党的发展</p><h4 id="当前党内政治生活中存在的主要问题"><a href="#当前党内政治生活中存在的主要问题" class="headerlink" title="当前党内政治生活中存在的主要问题"></a>当前党内政治生活中存在的主要问题</h4><ul><li>在一些党员、干部摆阔高级干部中……，个人主义、分散主义、自由主义、好人主义、宗派主义、山头主义、拜金主义不同程度存在</li><li>形式主义、官僚主义、享乐主义和奢靡之风问题突出。</li><li>官员政治野心大</li><li>贪污腐败严重</li></ul><blockquote><p>历史经验表明，我们党作为马克思主义政党……的准则</p><p>——关于新形势下党内政治生活的若干准则</p></blockquote><h3 id="新《准则》与原《准则》-的关系"><a href="#新《准则》与原《准则》-的关系" class="headerlink" title="新《准则》与原《准则》 的关系"></a>新《准则》与原《准则》 的关系</h3><blockquote><p>在长期实践中，我们党坚持把开展严肃认真的党内政治生活……</p></blockquote><blockquote><p>1980 年准则虽然至今仍然具有重要指导意义，但由于这个……</p></blockquote><table><thead><tr><th>原准则</th><th>新准则</th></tr></thead><tbody><tr><td>一、坚持党的政治路线和思想路线</td><td>一、坚定理想信念</td></tr><tr><td>二、坚持集体领导，反对个人专断</td><td>二、坚持党的基本路线</td></tr><tr><td>三、维护党的集中统一，严格遵守党的纪律</td><td>三、坚决维护党中央的权威</td></tr><tr><td>……</td><td>……</td></tr><tr><td>十二、努力学习，坚持又红又专</td><td>十二、保持清正廉洁的政治本色</td></tr></tbody></table><h3 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h3><ol><li>坚定理想信念</li><li>坚持党的基本路线</li><li>坚决维护党中央权威</li><li>严明党的政治纪律</li><li>保持党同人民群众的血肉联系</li><li>坚持民主集中原则</li><li>发扬党内民主和保障党员权利</li><li>坚持正确选人用人导向</li><li>严格党的组织生活制度</li><li>开展批评和自我批评</li><li>加强对权力运行的制约和监督</li><li>保持清正廉洁的政治本色</li></ol><h4 id="坚定理想信念"><a href="#坚定理想信念" class="headerlink" title="坚定理想信念"></a>坚定理想信念</h4><blockquote><p><strong>理想信念动摇是最危险的动摇，理想信念滑坡是最危险的滑坡</strong>。……的道路自信、理论自信、制度自信、文化自信。<strong>领导干部特别是高级干部要以实际行动让党员和群众感受到理想信念的强大力量</strong>。</p></blockquote><p>e.g. <code>苏联</code></p><p>朝阳大街</p><p>蒋南翔——去香山</p><h4 id="坚持党的基本路线"><a href="#坚持党的基本路线" class="headerlink" title="坚持党的基本路线"></a>坚持党的基本路线</h4><p>一个中心、两个基本点（坚持四项基本原则、坚持改革开放）</p><p>反对四项基本原则——右倾</p><h4 id="坚决维护党的权威"><a href="#坚决维护党的权威" class="headerlink" title="坚决维护党的权威"></a>坚决维护党的权威</h4><p>军队向前进、思想涨一寸</p><blockquote><p>全党……不准合意的执行，不合意的不执行</p></blockquote><h4 id="严明党的政治纪律"><a href="#严明党的政治纪律" class="headerlink" title="严明党的政治纪律"></a>严明党的政治纪律</h4><ul><li>不准散布违背党的理论和路线方针政策的言论</li><li>不准公开发表违背党中央决定的言论</li><li>不准泄露党和国家的秘密</li><li>不准参与非法组织和非法活动</li><li>不准制造、传播政治谣言及丑化党和国家形象的言论</li><li>不准搞封建迷信</li><li>不准信仰宗教</li><li>不准参与邪教</li><li>不准纵容和支持宗教极端势力、民族分裂势力、暴力恐怖势力及其活动</li><li>不准在党内搞小山头、小圈子、小团伙</li><li>严禁在党内拉私人关系、培植个人势力、结成利益集团</li><li>不准以任何理由和名义纵容、唆使、暗示或强迫下级弄虚作假、隐瞒实情的，都要依纪依规严肃问责追责</li><li>不准搞拉拉扯扯、吹吹拍拍、阿谀奉承</li></ul><h4 id="保持党同人民群众的血肉联系"><a href="#保持党同人民群众的血肉联系" class="headerlink" title="保持党同人民群众的血肉联系"></a>保持党同人民群众的血肉联系</h4><p>坚决反对命令主义、反对“尾巴主义”</p><h4 id="严格党的组织生活制度"><a href="#严格党的组织生活制度" class="headerlink" title="严格党的组织生活制度"></a>严格党的组织生活制度</h4><blockquote><p>全体党员、干部特别是高级干部必须增强党的意识，时刻牢记自己第一身份是党员。……，确保党的组织生活经常、认真、严肃。</p></blockquote><blockquote><p>坚持“三会一课”制度。……<strong>“三会一课”要突出政治学习和教育，突出党性修炼，坚决防止表面化、形式化、娱乐化、庸俗化。领导干部要</strong>……</p></blockquote><h4 id="开展批评和自我批评"><a href="#开展批评和自我批评" class="headerlink" title="开展批评和自我批评"></a>开展批评和自我批评</h4><blockquote><p>批评和自我批评必须坚持实事求是</p></blockquote></div><div class="story post-story"><h2 id="牢记《党章》和《准则》的要求，作合格的共产党员"><a href="#牢记《党章》和《准则》的要求，作合格的共产党员" class="headerlink" title="牢记《党章》和《准则》的要求，作合格的共产党员"></a>牢记《党章》和《准则》的要求，作合格的共产党员</h2><ul><li>要全面掌握《党章》和《准则》的基本内容</li><li>严格遵守《党章》和《准则》的各项规定</li></ul></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-          <category> 党课 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 章程与条例 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>清华大学党组织的建立与优良传统</title>
       <link href="/learn/ccp/ccp_history/"/>
       <url>/learn/ccp/ccp_history/</url>
@@ -1806,6 +1779,33 @@
         <tags>
             
             <tag> 清华党史 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>讲规矩 知方圆</title>
+      <link href="/learn/ccp/constitution_regulation/"/>
+      <url>/learn/ccp/constitution_regulation/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>——学习《党章》和《关于新形势下党内政治生活的若干准则》</p><div class="story post-story"><h2 id="中国共产党章程"><a href="#中国共产党章程" class="headerlink" title="中国共产党章程"></a>中国共产党章程</h2><h3 id="地位"><a href="#地位" class="headerlink" title="地位"></a>地位</h3><p>党的全国代表大会通过，属<strong>最高</strong>地位</p><p>党章于党类似宪法于国家</p><blockquote><p>党章是党的总章程，集中体现了党的性质和宗旨……</p><p>——习近平</p></blockquote><span id="more"></span><h3 id="结构与内容结构"><a href="#结构与内容结构" class="headerlink" title="结构与内容结构"></a>结构与内容结构</h3><p>党章分 <code>纲领(变化的)</code> 和 <code>章程(不变的)</code> 两个部分</p><h4 id="总纲"><a href="#总纲" class="headerlink" title="总纲"></a>总纲</h4><p>总纲部分规定了党的纲领</p><ul><li>中国共产党的性质和奋斗目标</li><li>中国共产党的指导思想</li><li>党的基本路线和基本纲领</li><li>党领导各项建设的基本原则和政策</li><li>党的建设的基本要求</li></ul><h4 id="章程"><a href="#章程" class="headerlink" title="章程"></a>章程</h4><p>共 <code>11</code> 个章节</p><ul><li>党员</li><li>党的组织制度</li><li>党的中央组织</li><li>党的地方组织</li><li>党的基层组织</li><li>党的干部</li><li>党的纪律 <code>纪律处分条例</code></li><li>党的纪律检查机关</li><li>党组</li><li>党和共产主义青年团的关系</li><li>党徽党旗</li></ul><p>注意与<strong>条例</strong>的结合</p><h3 id="修订"><a href="#修订" class="headerlink" title="修订"></a>修订</h3><h4 id="党代会基本流程"><a href="#党代会基本流程" class="headerlink" title="党代会基本流程"></a>党代会基本流程</h4><ol><li>听取中央委员会报告</li><li>修改党章</li><li>选举中央委员会</li><li>选举中央纪律委员会</li></ol></div><div class="story post-story"><h2 id="新形势下党内政治生活的若干准则"><a href="#新形势下党内政治生活的若干准则" class="headerlink" title="新形势下党内政治生活的若干准则"></a>新形势下党内政治生活的若干准则</h2><h3 id="为什么要制定《准则》"><a href="#为什么要制定《准则》" class="headerlink" title="为什么要制定《准则》"></a>为什么要制定《准则》</h3><blockquote><p>任何政党都有政治属性，都有自己的政治革命、政治目标、政治追求。……如果马克思主义政党政治上的先进性丧失了，党的先进性和纯洁性就无从谈起。</p><p>——习近平</p></blockquote><p>苏区时期——王明政府——反例</p><p>延安时期——整风</p><p>政治生活的健康事关党的发展</p><h4 id="当前党内政治生活中存在的主要问题"><a href="#当前党内政治生活中存在的主要问题" class="headerlink" title="当前党内政治生活中存在的主要问题"></a>当前党内政治生活中存在的主要问题</h4><ul><li>在一些党员、干部摆阔高级干部中……，个人主义、分散主义、自由主义、好人主义、宗派主义、山头主义、拜金主义不同程度存在</li><li>形式主义、官僚主义、享乐主义和奢靡之风问题突出。</li><li>官员政治野心大</li><li>贪污腐败严重</li></ul><blockquote><p>历史经验表明，我们党作为马克思主义政党……的准则</p><p>——关于新形势下党内政治生活的若干准则</p></blockquote><h3 id="新《准则》与原《准则》-的关系"><a href="#新《准则》与原《准则》-的关系" class="headerlink" title="新《准则》与原《准则》 的关系"></a>新《准则》与原《准则》 的关系</h3><blockquote><p>在长期实践中，我们党坚持把开展严肃认真的党内政治生活……</p></blockquote><blockquote><p>1980 年准则虽然至今仍然具有重要指导意义，但由于这个……</p></blockquote><table><thead><tr><th>原准则</th><th>新准则</th></tr></thead><tbody><tr><td>一、坚持党的政治路线和思想路线</td><td>一、坚定理想信念</td></tr><tr><td>二、坚持集体领导，反对个人专断</td><td>二、坚持党的基本路线</td></tr><tr><td>三、维护党的集中统一，严格遵守党的纪律</td><td>三、坚决维护党中央的权威</td></tr><tr><td>……</td><td>……</td></tr><tr><td>十二、努力学习，坚持又红又专</td><td>十二、保持清正廉洁的政治本色</td></tr></tbody></table><h3 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h3><ol><li>坚定理想信念</li><li>坚持党的基本路线</li><li>坚决维护党中央权威</li><li>严明党的政治纪律</li><li>保持党同人民群众的血肉联系</li><li>坚持民主集中原则</li><li>发扬党内民主和保障党员权利</li><li>坚持正确选人用人导向</li><li>严格党的组织生活制度</li><li>开展批评和自我批评</li><li>加强对权力运行的制约和监督</li><li>保持清正廉洁的政治本色</li></ol><h4 id="坚定理想信念"><a href="#坚定理想信念" class="headerlink" title="坚定理想信念"></a>坚定理想信念</h4><blockquote><p><strong>理想信念动摇是最危险的动摇，理想信念滑坡是最危险的滑坡</strong>。……的道路自信、理论自信、制度自信、文化自信。<strong>领导干部特别是高级干部要以实际行动让党员和群众感受到理想信念的强大力量</strong>。</p></blockquote><p>e.g. <code>苏联</code></p><p>朝阳大街</p><p>蒋南翔——去香山</p><h4 id="坚持党的基本路线"><a href="#坚持党的基本路线" class="headerlink" title="坚持党的基本路线"></a>坚持党的基本路线</h4><p>一个中心、两个基本点（坚持四项基本原则、坚持改革开放）</p><p>反对四项基本原则——右倾</p><h4 id="坚决维护党的权威"><a href="#坚决维护党的权威" class="headerlink" title="坚决维护党的权威"></a>坚决维护党的权威</h4><p>军队向前进、思想涨一寸</p><blockquote><p>全党……不准合意的执行，不合意的不执行</p></blockquote><h4 id="严明党的政治纪律"><a href="#严明党的政治纪律" class="headerlink" title="严明党的政治纪律"></a>严明党的政治纪律</h4><ul><li>不准散布违背党的理论和路线方针政策的言论</li><li>不准公开发表违背党中央决定的言论</li><li>不准泄露党和国家的秘密</li><li>不准参与非法组织和非法活动</li><li>不准制造、传播政治谣言及丑化党和国家形象的言论</li><li>不准搞封建迷信</li><li>不准信仰宗教</li><li>不准参与邪教</li><li>不准纵容和支持宗教极端势力、民族分裂势力、暴力恐怖势力及其活动</li><li>不准在党内搞小山头、小圈子、小团伙</li><li>严禁在党内拉私人关系、培植个人势力、结成利益集团</li><li>不准以任何理由和名义纵容、唆使、暗示或强迫下级弄虚作假、隐瞒实情的，都要依纪依规严肃问责追责</li><li>不准搞拉拉扯扯、吹吹拍拍、阿谀奉承</li></ul><h4 id="保持党同人民群众的血肉联系"><a href="#保持党同人民群众的血肉联系" class="headerlink" title="保持党同人民群众的血肉联系"></a>保持党同人民群众的血肉联系</h4><p>坚决反对命令主义、反对“尾巴主义”</p><h4 id="严格党的组织生活制度"><a href="#严格党的组织生活制度" class="headerlink" title="严格党的组织生活制度"></a>严格党的组织生活制度</h4><blockquote><p>全体党员、干部特别是高级干部必须增强党的意识，时刻牢记自己第一身份是党员。……，确保党的组织生活经常、认真、严肃。</p></blockquote><blockquote><p>坚持“三会一课”制度。……<strong>“三会一课”要突出政治学习和教育，突出党性修炼，坚决防止表面化、形式化、娱乐化、庸俗化。领导干部要</strong>……</p></blockquote><h4 id="开展批评和自我批评"><a href="#开展批评和自我批评" class="headerlink" title="开展批评和自我批评"></a>开展批评和自我批评</h4><blockquote><p>批评和自我批评必须坚持实事求是</p></blockquote></div><div class="story post-story"><h2 id="牢记《党章》和《准则》的要求，作合格的共产党员"><a href="#牢记《党章》和《准则》的要求，作合格的共产党员" class="headerlink" title="牢记《党章》和《准则》的要求，作合格的共产党员"></a>牢记《党章》和《准则》的要求，作合格的共产党员</h2><ul><li>要全面掌握《党章》和《准则》的基本内容</li><li>严格遵守《党章》和《准则》的各项规定</li></ul></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 党课 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 章程与条例 </tag>
             
         </tags>
       
